@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GreenFit\\GreenFit\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{438FF6EA-7587-455B-98E8-5DE8B2FB6892}|GreenFit\\GreenFit.csproj|c:\\greenfit\\greenfit\\greenfit\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{438FF6EA-7587-455B-98E8-5DE8B2FB6892}|GreenFit\\GreenFit.csproj|solutionrelative:greenfit\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{438FF6EA-7587-455B-98E8-5DE8B2FB6892}|GreenFit\\GreenFit.csproj|c:\\greenfit\\greenfit\\greenfit\\phonewordtranslator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{438FF6EA-7587-455B-98E8-5DE8B2FB6892}|GreenFit\\GreenFit.csproj|solutionrelative:greenfit\\phonewordtranslator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{438FF6EA-7587-455B-98E8-5DE8B2FB6892}|GreenFit\\GreenFit.csproj|c:\\greenfit\\greenfit\\greenfit\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{438FF6EA-7587-455B-98E8-5DE8B2FB6892}|GreenFit\\GreenFit.csproj|solutionrelative:greenfit\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{65ddf8c3-8f89-4077-a6c6-dbb8853aab13}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PhonewordTranslator.cs",
+              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit\\PhonewordTranslator.cs",
+              "RelativeDocumentMoniker": "GreenFit\\PhonewordTranslator.cs",
+              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit\\PhonewordTranslator.cs",
+              "RelativeToolTip": "GreenFit\\PhonewordTranslator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T10:59:11.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "GreenFit\\MainPage.xaml.cs",
+              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit\\MainPage.xaml.cs",
+              "RelativeToolTip": "GreenFit\\MainPage.xaml.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAYwCcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T10:42:03.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit\\MainPage.xaml",
+              "RelativeDocumentMoniker": "GreenFit\\MainPage.xaml",
+              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit\\MainPage.xaml",
+              "RelativeToolTip": "GreenFit\\MainPage.xaml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwCUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-10T10:39:48.314Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
