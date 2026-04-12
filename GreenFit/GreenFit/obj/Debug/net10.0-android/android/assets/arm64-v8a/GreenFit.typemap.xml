@@ -1,4 +1,4 @@
-<api type="debug" assembly-name="GreenFit" mvid="8d177f304d1540afb7edec1e26b86fac">
+<api type="debug" assembly-name="GreenFit" mvid="81139b6bae2a472ca7cf291e8e77280f">
   <java-to-managed>
     <entry java-name="crc640093c82f8b3bc147/MainActivity" managed-name="GreenFit.MainActivity, GreenFit" managed-type-token-id="33554442" />
     <entry java-name="crc640093c82f8b3bc147/MainApplication" managed-name="GreenFit.MainApplication, GreenFit" managed-type-token-id="33554443" />
