@@ -13,6 +13,7 @@ namespace GreenFit
         {
             return new Window(new AppShell());
             //return new Window(new Pages.GymDeteailsPage());
+            
         }
     }
 }

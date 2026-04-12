@@ -4,6 +4,7 @@
              x:Class="GreenFit.Pages.NewPage1"
              Title="MapPage"
              BackgroundColor="#F5F7F8">
+
     <Grid RowDefinitions="*, Auto">
 
         <WebView Grid.Row="0" 
@@ -14,11 +15,19 @@
                      Padding="15" 
                      Orientation="Horizontal">
 
-            <Label Text="Esplora la mappa" 
-                   VerticalOptions="Center" 
-                   TextColor="White" 
-                   FontSize="16" 
-                   FontAttributes="Bold" />
+            <HorizontalStackLayout HorizontalOptions="Start" Spacing="15">
+                <Image Source="greenfitlogoi.png" 
+                HeightRequest="25" 
+                VerticalOptions="Center" />
+
+                <Label Text="Esplora la mappa" 
+                VerticalOptions="Center" 
+                TextColor="#1B4332" 
+                FontSize="16" 
+                FontAttributes="Bold" />
+
+            </HorizontalStackLayout>
+            
 
             <Button Text="+ Aggiungi" 
                     HorizontalOptions="EndAndExpand" 
@@ -26,6 +35,7 @@
                     TextColor="#1B4332" 
                     CornerRadius="20" 
                     HeightRequest="40"/>
+
         </StackLayout>
 
     </Grid>
