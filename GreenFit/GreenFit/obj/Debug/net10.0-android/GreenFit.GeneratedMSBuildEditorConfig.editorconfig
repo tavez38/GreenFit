@@ -9,6 +9,7 @@ build_property.MauiXamlNoWarn =
 build_property.EnableMauiXamlDiagnostics = true
 build_property.MauiXamlLineInfo = 
 build_property.Configuration = Debug
+build_property.EnablePreviewFeatures = 
 build_property.TargetFramework = net10.0-android
 build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
@@ -66,11 +67,11 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/GreenFit/GreenFit/GreenFit/Pages/MapPage.xaml]
+[C:/GreenFit/GreenFit/GreenFit/Pages/NewPage1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.Pages.MapPage.xaml
-build_metadata.AdditionalFiles.TargetPath = Pages\MapPage.xaml
-build_metadata.AdditionalFiles.RelativePath = Pages\MapPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.Pages.NewPage1.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\NewPage1.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\NewPage1.xaml
 build_metadata.AdditionalFiles.Inflator = SourceGen
 build_metadata.AdditionalFiles.NoWarn = 
 build_metadata.AdditionalFiles.EnableDiagnostics = 

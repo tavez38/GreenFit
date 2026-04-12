@@ -70,13 +70,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.0" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="10.0.51" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="10.0.5" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.17.0" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Pages\MapPage.xaml.cs">
-	    <DependentUpon>MapPage.xaml</DependentUpon>
+	  <Compile Update="Pages\newPage1.xaml.cs">
+	    <DependentUpon>NewPage1.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
@@ -84,7 +85,7 @@
 	  <MauiXaml Update="Pages\GymDeteailsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Pages\MapPage.xaml">
+	  <MauiXaml Update="Pages\NewPage1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

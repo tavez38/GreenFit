@@ -11,7 +11,7 @@ namespace GreenFit.Models
         public string? email { get; set; }
         public bool isLoggedIn { get; set; }
 
-        Utente(bool isLoggedIn) { 
+        public Utente(bool isLoggedIn) { 
             this.isLoggedIn = isLoggedIn;
         }
 

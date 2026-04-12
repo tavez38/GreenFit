@@ -1,9 +1,0 @@
-﻿<maui:MauiWinUIApplication
-    x:Class="GreenFit.WinUI.App"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:maui="using:Microsoft.Maui"
-    xmlns:local="using:GreenFit.WinUI">
-
-</maui:MauiWinUIApplication>
-
