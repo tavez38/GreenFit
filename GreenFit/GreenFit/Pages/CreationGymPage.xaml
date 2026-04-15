@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GreenFit.Pages.GymDeteailsPage"
+             Title="Crea Palestra"
+             BackgroundColor="White">
+
+    <Grid RowDefinitions="*, Auto">
+
+        <ScrollView Grid.Row="0">
+            <VerticalStackLayout Padding="0,20,0,20" Spacing="20">
+
+                <Grid ColumnDefinitions="*, Auto" Padding="20,0">
+                    <Label Grid.Column="0" 
+                           Text="crea palestra" 
+                           FontSize="24" 
+                           FontAttributes="Bold" 
+                           TextColor="Black"
+                           VerticalOptions="Center" 
+                           HorizontalOptions="Start" />
+
+                    <Button Grid.Column="1" 
+                            Text="X" 
+                            BackgroundColor="Transparent" 
+                            TextColor="Black" 
+                            FontSize="22" 
+                            FontAttributes="Bold"
+                            VerticalOptions="Center" 
+                            HorizontalOptions="End" />
+                </Grid>
+
+                <Grid ColumnDefinitions="Auto, Auto" HorizontalOptions="Center" ColumnSpacing="15">
+
+                    <Frame Grid.Column="0" 
+                           WidthRequest="250" 
+                           HeightRequest="150" 
+                           BackgroundColor="#E0E0E0" 
+                           CornerRadius="10" 
+                           HasShadow="False"
+                           BorderColor="Transparent"
+                           Padding="0">
+                        <Label Text="nessuna immagine" 
+                               TextColor="#808080" 
+                               HorizontalOptions="Center" 
+                               VerticalOptions="Center" />
+                    </Frame>
+
+                    <Button Grid.Column="1" 
+                            Text="+" 
+                            BackgroundColor="Transparent" 
+                            TextColor="Black" 
+                            FontSize="30" 
+                            VerticalOptions="Center" />
+                </Grid>
+
+                <Entry Placeholder="Nome della palestra" 
+                       WidthRequest="300" 
+                       HorizontalOptions="Center" />
+
+                <Editor Placeholder="Descrizione della palestra" 
+                        WidthRequest="300" 
+                        HeightRequest="110" 
+                        AutoSize="TextChanges"
+                        HorizontalOptions="Center" />
+
+                <Button Text="+ aggiungi attrezzi" 
+                        HorizontalOptions="Start" 
+                        Margin="20,0,0,0" 
+                        BackgroundColor="#EEEEEE"
+                        TextColor="Black"/>
+
+                <Entry Placeholder="Coordinate geografiche (es. 41.9028, 12.4964)" 
+                       WidthRequest="300" 
+                       HorizontalOptions="Center" />
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <HorizontalStackLayout Grid.Row="1" 
+                               HorizontalOptions="Center" 
+                               Spacing="20" 
+                               Padding="20,10,20,30">
+
+            <Button Text="scarta proposta" 
+                    BackgroundColor="Red" 
+                    TextColor="White" 
+                    FontAttributes="Bold"
+                    WidthRequest="150"/>
+
+            <Button Text="aggiungi" 
+                    BackgroundColor="Green" 
+                    TextColor="White" 
+                    FontAttributes="Bold"
+                    WidthRequest="150"/>
+
+        </HorizontalStackLayout>
+
+    </Grid>
+
+</ContentPage>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GreenFit.Pages.GymDeteailsPage"
+             BackgroundColor="White">
+
+    <Grid RowDefinitions="Auto, *, Auto">
+
+        <Grid Grid.Row="0" ColumnDefinitions="*, Auto" Padding="20,15" BackgroundColor="White">
+            <Label Grid.Column="0" 
+                   Text="recensioni" 
+                   FontSize="24" 
+                   FontAttributes="Bold" 
+                   TextColor="Black" 
+                   VerticalOptions="Center" />
+
+            <Button Grid.Column="1" 
+                    Text="X" 
+                    BackgroundColor="Transparent" 
+                    TextColor="Black" 
+                    FontSize="22" 
+                    FontAttributes="Bold" />
+        </Grid>
+
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout Padding="20,10" Spacing="15">
+
+                <Grid ColumnDefinitions="Auto, *, Auto" ColumnSpacing="15">
+
+                    <Frame Grid.Column="0" 
+                           WidthRequest="80" 
+                           HeightRequest="80" 
+                           BackgroundColor="#E0E0E0" 
+                           CornerRadius="8" 
+                           Padding="0" 
+                           HasShadow="False" 
+                           BorderColor="Transparent">
+                        <Label Text="img" FontSize="10" TextColor="#808080" HorizontalOptions="Center" VerticalOptions="Center" />
+                    </Frame>
+
+                    <VerticalStackLayout Grid.Column="1" VerticalOptions="Center">
+                        <Label Text="Nome Palestra" FontAttributes="Bold" FontSize="18" TextColor="Black" />
+                        <Label Text="41.9028, 12.4964" FontSize="12" TextColor="Gray" />
+                    </VerticalStackLayout>
+
+                    <VerticalStackLayout Grid.Column="2" VerticalOptions="Center" HorizontalOptions="End">
+                        <HorizontalStackLayout Spacing="2">
+                            <Frame BackgroundColor="Yellow" Padding="2" CornerRadius="2" HasShadow="False" WidthRequest="20" HeightRequest="20">
+                                <Label Text="★" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center" FontSize="12"/>
+                            </Frame>
+                            <Frame BackgroundColor="Yellow" Padding="2" CornerRadius="2" HasShadow="False" WidthRequest="20" HeightRequest="20">
+                                <Label Text="★" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center" FontSize="12"/>
+                            </Frame>
+                            <Frame BackgroundColor="Yellow" Padding="2" CornerRadius="2" HasShadow="False" WidthRequest="20" HeightRequest="20">
+                                <Label Text="★" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center" FontSize="12"/>
+                            </Frame>
+                            <Frame BackgroundColor="Yellow" Padding="2" CornerRadius="2" HasShadow="False" WidthRequest="20" HeightRequest="20">
+                                <Label Text="★" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center" FontSize="12"/>
+                            </Frame>
+                            <Frame BackgroundColor="Yellow" Padding="2" CornerRadius="2" HasShadow="False" WidthRequest="20" HeightRequest="20">
+                                <Label Text="★" TextColor="Black" HorizontalOptions="Center" VerticalOptions="Center" FontSize="12"/>
+                            </Frame>
+                        </HorizontalStackLayout>
+                        <Label Text="128 recensioni" FontSize="10" HorizontalOptions="End" TextColor="Gray" Margin="0,5,0,0"/>
+                    </VerticalStackLayout>
+                </Grid>
+
+                <BoxView HeightRequest="1" Color="#CCCCCC" HorizontalOptions="Fill" Margin="0,10"/>
+
+                <VerticalStackLayout Spacing="10">
+
+                    <Grid ColumnDefinitions="Auto, *, Auto" VerticalOptions="Center">
+                        <Frame Grid.Column="0" CornerRadius="20" WidthRequest="40" HeightRequest="40" Padding="0" IsClippedToBounds="True" HasShadow="False" BackgroundColor="#DDDDDD">
+                        </Frame>
+
+                        <Label Grid.Column="1" Text="Nome Utente" FontAttributes="Bold" VerticalOptions="Center" Margin="10,0" TextColor="Black"/>
+
+                        <HorizontalStackLayout Grid.Column="2" Spacing="1" VerticalOptions="Center">
+                            <Frame BackgroundColor="Yellow" Padding="1" WidthRequest="12" HeightRequest="12" HasShadow="False">
+                                <Label Text="★" FontSize="8" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            </Frame>
+                            <Frame BackgroundColor="Yellow" Padding="1" WidthRequest="12" HeightRequest="12" HasShadow="False">
+                                <Label Text="★" FontSize="8" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            </Frame>
+                            <Frame BackgroundColor="Yellow" Padding="1" WidthRequest="12" HeightRequest="12" HasShadow="False">
+                                <Label Text="★" FontSize="8" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            </Frame>
+                            <Frame BackgroundColor="Yellow" Padding="1" WidthRequest="12" HeightRequest="12" HasShadow="False">
+                                <Label Text="★" FontSize="8" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            </Frame>
+                            <Frame BackgroundColor="Yellow" Padding="1" WidthRequest="12" HeightRequest="12" HasShadow="False">
+                                <Label Text="★" FontSize="8" HorizontalOptions="Center" VerticalOptions="Center"/>
+                            </Frame>
+                        </HorizontalStackLayout>
+                    </Grid>
+
+                    <BoxView HeightRequest="0.5" Color="#EEEEEE" HorizontalOptions="Fill" />
+
+                    <Label Text="Questa palestra è fantastica! Personale qualificato e attrezzi sempre puliti. Consiglio vivamente a tutti di venire qui per allenarsi." 
+                           TextColor="#333333" 
+                           FontSize="14" />
+
+                    <BoxView HeightRequest="1" Color="#F0F0F0" Margin="0,15,0,0"/>
+                </VerticalStackLayout>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Button Grid.Row="2" 
+                Text="aggiungi recensione" 
+                BackgroundColor="Green" 
+                TextColor="White" 
+                FontAttributes="Bold" 
+                HorizontalOptions="Center" 
+                Margin="0,10,0,25" 
+                WidthRequest="250" />
+
+    </Grid>
+</ContentPage>
