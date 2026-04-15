@@ -59,6 +59,26 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
+[C:/GreenFit/GreenFit/GreenFit/Pages/ChatBotPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.Pages.ChatBotPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ChatBotPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ChatBotPage.xaml
+build_metadata.AdditionalFiles.Inflator = SourceGen
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[C:/GreenFit/GreenFit/GreenFit/Pages/CreationGymPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.Pages.CreationGymPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\CreationGymPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\CreationGymPage.xaml
+build_metadata.AdditionalFiles.Inflator = SourceGen
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
 [C:/GreenFit/GreenFit/GreenFit/Pages/GymDeteailsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.Pages.GymDeteailsPage.xaml
@@ -74,6 +94,16 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.Pages.NewPage1.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\NewPage1.xaml
 build_metadata.AdditionalFiles.RelativePath = Pages\NewPage1.xaml
+build_metadata.AdditionalFiles.Inflator = SourceGen
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
+[C:/GreenFit/GreenFit/GreenFit/Pages/ReviewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.Pages.ReviewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\ReviewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\ReviewPage.xaml
 build_metadata.AdditionalFiles.Inflator = SourceGen
 build_metadata.AdditionalFiles.NoWarn = 
 build_metadata.AdditionalFiles.EnableDiagnostics = 
