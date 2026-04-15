@@ -8,8 +8,9 @@
 
     <Grid RowDefinitions="*, Auto">
 
-        <WebView Grid.Row="0" 
-                 Source="https://www.openstreetmap.org/export/embed.html?bbox=8.9,45.4,9.3,45.6&amp;layer=mapnik" />
+        <WebView x:Name="MapWebView" 
+                Grid.Row="0" 
+                  />
 
         <StackLayout Grid.Row="1" 
                      BackgroundColor="#4CAF50" 

@@ -19,11 +19,11 @@ namespace GreenFit
             try
             {
                 // 1. Configura i parametri di Google
-                string clientId = "23526714735-0m5vfobvk91suses2cq2lf1k3pvqfl1a.apps.googleusercontent.com";
-                string redirectUri = "com.googleusercontent.apps.23526714735-0m5vfobvk91suses2cq2lf1k3pvqfl1a:/oauth2redirect";
+                string clientId = Serivces.FileManager.envVariables["GOOGLE_CLIENT_ID"];
+                string redirectUri = Serivces.FileManager.envVariables["GOOGLE_REDIRECT_URI"];
 
                 // 2. Costruisci l'URL di autorizzazione di Google
-               
+
                 string authUrl = $"https://accounts.google.com/o/oauth2/v2/auth?" +
                  $"client_id={clientId}&" +
                  $"response_type=code&" +
@@ -110,9 +110,10 @@ namespace GreenFit
             }
         }
 
-        private void OnGuestLoginTapped(object sender, EventArgs e)
+        private async void OnGuestLoginTapped(object sender, EventArgs e)
         {
-            // Qui andrà il codice per mandare l'utente alla mappa senza login
+            Utente u = new Utente(false);
+            await Shell.Current.GoToAsync("MapPage");
         }
 
 

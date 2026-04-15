@@ -15,8 +15,10 @@ namespace GreenFit
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
+                Serivces.FileManager.CreateFileIfNotExists();
+                Serivces.FileManager.readFileText();
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();
