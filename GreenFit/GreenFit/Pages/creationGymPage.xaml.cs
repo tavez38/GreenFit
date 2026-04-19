@@ -20,9 +20,8 @@ public partial class CreationGymPage : ContentPage
         string latitude = coordinate.Split(',')[0].Trim();
         string longitude = coordinate.Split(',')[1].Trim();
 
-        // Qui puoi aggiungere la logica per salvare i dati della palestra, ad esempio in un database o in un file
-        // Per ora, mostriamo semplicemente i dati inseriti in una finestra di dialogo
         DisplayAlert("Palestra Aggiunta", $"Nome: {name}\nDescrizione: {description}\n", "OK");
+        //TODO implementare invio dati al db
     }
     public void resetAddGym(object sender, EventArgs e){
         GymNameEntry.Text = string.Empty;
