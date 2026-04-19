@@ -1,5 +1,7 @@
 ﻿
 
+using GreenFit.Serivces;
+
 namespace GreenFit
 {
     public partial class App : Application
@@ -7,6 +9,8 @@ namespace GreenFit
         public App()
         {
             InitializeComponent();
+           FileManager.CreateFileIfNotExists();
+           FileManager.readFileText();
         }
 
         protected override Window CreateWindow(IActivationState? activationState)
