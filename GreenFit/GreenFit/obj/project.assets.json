@@ -2,6 +2,40 @@
   "version": 3,
   "targets": {
     "net10.0-android36.0": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.13.1.1": {
         "type": "package",
         "dependencies": {
@@ -2566,6 +2600,40 @@
       }
     },
     "net10.0-android36.0/android-arm64": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.13.1.1": {
         "type": "package",
         "dependencies": {
@@ -5130,6 +5198,40 @@
       }
     },
     "net10.0-android36.0/android-x64": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.13.1.1": {
         "type": "package",
         "dependencies": {
@@ -7694,6 +7796,40 @@
       }
     },
     "net10.0-android36.0/iossimulator-x64": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.13.1.1": {
         "type": "package",
         "dependencies": {
@@ -10258,6 +10394,40 @@
       }
     },
     "net10.0-android36.0/maccatalyst-x64": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.13.1.1": {
         "type": "package",
         "dependencies": {
@@ -12822,6 +12992,40 @@
       }
     },
     "net10.0-android36.0/win-x64": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-android36.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "GoogleGson/2.13.1.1": {
         "type": "package",
         "dependencies": {
@@ -15386,6 +15590,40 @@
       }
     },
     "net10.0-ios26.2": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -15930,6 +16168,40 @@
       }
     },
     "net10.0-ios26.2/android-arm64": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -16474,6 +16746,40 @@
       }
     },
     "net10.0-ios26.2/android-x64": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -17018,6 +17324,40 @@
       }
     },
     "net10.0-ios26.2/iossimulator-x64": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -17562,6 +17902,40 @@
       }
     },
     "net10.0-ios26.2/maccatalyst-x64": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -18106,6 +18480,40 @@
       }
     },
     "net10.0-ios26.2/win-x64": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-ios26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -18650,6 +19058,40 @@
       }
     },
     "net10.0-maccatalyst26.2": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -19194,6 +19636,40 @@
       }
     },
     "net10.0-maccatalyst26.2/android-arm64": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -19738,6 +20214,40 @@
       }
     },
     "net10.0-maccatalyst26.2/android-x64": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -20282,6 +20792,40 @@
       }
     },
     "net10.0-maccatalyst26.2/iossimulator-x64": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -20826,6 +21370,40 @@
       }
     },
     "net10.0-maccatalyst26.2/maccatalyst-x64": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -21370,6 +21948,40 @@
       }
     },
     "net10.0-maccatalyst26.2/win-x64": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -21914,6 +22526,42 @@
       }
     },
     "net10.0-windows10.0.19041": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".pri;.xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41",
+          "Microsoft.WindowsAppSDK": "1.8.260101001",
+          "System.Speech": "10.0.1"
+        },
+        "compile": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".pri;.xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -22540,29 +23188,29 @@
           "buildTransitive/Microsoft.Windows.SDK.BuildTools.MSIX.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.8.251106002": {
+      "Microsoft.WindowsAppSDK/1.8.260101001": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.AI": "[1.8.39]",
-          "Microsoft.WindowsAppSDK.Base": "[1.8.250831001]",
-          "Microsoft.WindowsAppSDK.DWrite": "[1.8.25090401]",
-          "Microsoft.WindowsAppSDK.Foundation": "[1.8.251104000]",
-          "Microsoft.WindowsAppSDK.InteractiveExperiences": "[1.8.251104001]",
-          "Microsoft.WindowsAppSDK.ML": "[1.8.2109]",
-          "Microsoft.WindowsAppSDK.Runtime": "[1.8.251106002]",
-          "Microsoft.WindowsAppSDK.Widgets": "[1.8.250904007]",
-          "Microsoft.WindowsAppSDK.WinUI": "[1.8.251105000]"
+          "Microsoft.WindowsAppSDK.AI": "[1.8.44]",
+          "Microsoft.WindowsAppSDK.Base": "[1.8.251216001]",
+          "Microsoft.WindowsAppSDK.DWrite": "[1.8.25122902]",
+          "Microsoft.WindowsAppSDK.Foundation": "[1.8.251220000]",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "[1.8.251217001]",
+          "Microsoft.WindowsAppSDK.ML": "[1.8.2119]",
+          "Microsoft.WindowsAppSDK.Runtime": "[1.8.260101001]",
+          "Microsoft.WindowsAppSDK.Widgets": "[1.8.251231004]",
+          "Microsoft.WindowsAppSDK.WinUI": "[1.8.251222000]"
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.AI/1.8.39": {
+      "Microsoft.WindowsAppSDK.AI/1.8.44": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.Foundation": "1.8.251104000"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.Foundation": "1.8.251220000"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.Graphics.Imaging.Projection.dll": {},
@@ -22585,7 +23233,7 @@
           "buildTransitive/Microsoft.WindowsAppSDK.AI.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Base/1.8.250831001": {
+      "Microsoft.WindowsAppSDK.Base/1.8.251216001": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.26100.4654",
@@ -22596,21 +23244,21 @@
           "buildTransitive/Microsoft.WindowsAppSDK.Base.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.DWrite/1.8.25090401": {
+      "Microsoft.WindowsAppSDK.DWrite/1.8.25122902": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.DWrite.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.DWrite.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Foundation/1.8.251104000": {
+      "Microsoft.WindowsAppSDK.Foundation/1.8.251220000": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251104001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251217001"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.Security.Authentication.OAuth.Projection.dll": {},
@@ -22741,10 +23389,10 @@
           }
         }
       },
-      "Microsoft.WindowsAppSDK.InteractiveExperiences/1.8.251104001": {
+      "Microsoft.WindowsAppSDK.InteractiveExperiences/1.8.251217001": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "compile": {
           "lib/net6.0-windows10.0.18362.0/Microsoft.InteractiveExperiences.Projection.dll": {
@@ -22761,11 +23409,11 @@
           "buildTransitive/Microsoft.WindowsAppSDK.InteractiveExperiences.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.ML/1.8.2109": {
+      "Microsoft.WindowsAppSDK.ML/1.8.2119": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.Foundation": "1.8.251104000",
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.Foundation": "1.8.251220000",
           "System.Numerics.Tensors": "9.0.0"
         },
         "compile": {
@@ -22781,20 +23429,20 @@
           "buildTransitive/Microsoft.WindowsAppSDK.ML.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Runtime/1.8.251106002": {
+      "Microsoft.WindowsAppSDK.Runtime/1.8.260101001": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.Runtime.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.Runtime.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Widgets/1.8.250904007": {
+      "Microsoft.WindowsAppSDK.Widgets/1.8.251231004": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.Windows.Widgets.Projection.dll": {
@@ -22811,13 +23459,13 @@
           "buildTransitive/Microsoft.WindowsAppSDK.Widgets.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.WinUI/1.8.251105000": {
+      "Microsoft.WindowsAppSDK.WinUI/1.8.251222000": {
         "type": "package",
         "dependencies": {
           "Microsoft.Web.WebView2": "1.0.3179.45",
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.Foundation": "1.8.251104000",
-          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251104001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.Foundation": "1.8.251220000",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251217001"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.WinUI.dll": {
@@ -22866,9 +23514,67 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "System.Speech/10.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/System.Speech.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/System.Speech.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net10.0/System.Speech.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
       }
     },
     "net10.0-windows10.0.19041/android-arm64": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".pri;.xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41",
+          "Microsoft.WindowsAppSDK": "1.8.260101001",
+          "System.Speech": "10.0.1"
+        },
+        "compile": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".pri;.xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -23467,29 +24173,29 @@
           "buildTransitive/Microsoft.Windows.SDK.BuildTools.MSIX.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.8.251106002": {
+      "Microsoft.WindowsAppSDK/1.8.260101001": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.AI": "[1.8.39]",
-          "Microsoft.WindowsAppSDK.Base": "[1.8.250831001]",
-          "Microsoft.WindowsAppSDK.DWrite": "[1.8.25090401]",
-          "Microsoft.WindowsAppSDK.Foundation": "[1.8.251104000]",
-          "Microsoft.WindowsAppSDK.InteractiveExperiences": "[1.8.251104001]",
-          "Microsoft.WindowsAppSDK.ML": "[1.8.2109]",
-          "Microsoft.WindowsAppSDK.Runtime": "[1.8.251106002]",
-          "Microsoft.WindowsAppSDK.Widgets": "[1.8.250904007]",
-          "Microsoft.WindowsAppSDK.WinUI": "[1.8.251105000]"
+          "Microsoft.WindowsAppSDK.AI": "[1.8.44]",
+          "Microsoft.WindowsAppSDK.Base": "[1.8.251216001]",
+          "Microsoft.WindowsAppSDK.DWrite": "[1.8.25122902]",
+          "Microsoft.WindowsAppSDK.Foundation": "[1.8.251220000]",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "[1.8.251217001]",
+          "Microsoft.WindowsAppSDK.ML": "[1.8.2119]",
+          "Microsoft.WindowsAppSDK.Runtime": "[1.8.260101001]",
+          "Microsoft.WindowsAppSDK.Widgets": "[1.8.251231004]",
+          "Microsoft.WindowsAppSDK.WinUI": "[1.8.251222000]"
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.AI/1.8.39": {
+      "Microsoft.WindowsAppSDK.AI/1.8.44": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.Foundation": "1.8.251104000"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.Foundation": "1.8.251220000"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.Graphics.Imaging.Projection.dll": {},
@@ -23512,7 +24218,7 @@
           "buildTransitive/Microsoft.WindowsAppSDK.AI.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Base/1.8.250831001": {
+      "Microsoft.WindowsAppSDK.Base/1.8.251216001": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.26100.4654",
@@ -23523,21 +24229,21 @@
           "buildTransitive/Microsoft.WindowsAppSDK.Base.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.DWrite/1.8.25090401": {
+      "Microsoft.WindowsAppSDK.DWrite/1.8.25122902": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.DWrite.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.DWrite.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Foundation/1.8.251104000": {
+      "Microsoft.WindowsAppSDK.Foundation/1.8.251220000": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251104001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251217001"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.Security.Authentication.OAuth.Projection.dll": {},
@@ -23634,10 +24340,10 @@
           "buildTransitive/Microsoft.WindowsAppSDK.Foundation.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.InteractiveExperiences/1.8.251104001": {
+      "Microsoft.WindowsAppSDK.InteractiveExperiences/1.8.251217001": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "compile": {
           "lib/net6.0-windows10.0.18362.0/Microsoft.InteractiveExperiences.Projection.dll": {
@@ -23654,11 +24360,11 @@
           "buildTransitive/Microsoft.WindowsAppSDK.InteractiveExperiences.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.ML/1.8.2109": {
+      "Microsoft.WindowsAppSDK.ML/1.8.2119": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.Foundation": "1.8.251104000",
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.Foundation": "1.8.251220000",
           "System.Numerics.Tensors": "9.0.0"
         },
         "compile": {
@@ -23674,20 +24380,20 @@
           "buildTransitive/Microsoft.WindowsAppSDK.ML.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Runtime/1.8.251106002": {
+      "Microsoft.WindowsAppSDK.Runtime/1.8.260101001": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.Runtime.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.Runtime.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Widgets/1.8.250904007": {
+      "Microsoft.WindowsAppSDK.Widgets/1.8.251231004": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.Windows.Widgets.Projection.dll": {
@@ -23704,13 +24410,13 @@
           "buildTransitive/Microsoft.WindowsAppSDK.Widgets.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.WinUI/1.8.251105000": {
+      "Microsoft.WindowsAppSDK.WinUI/1.8.251222000": {
         "type": "package",
         "dependencies": {
           "Microsoft.Web.WebView2": "1.0.3179.45",
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.Foundation": "1.8.251104000",
-          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251104001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.Foundation": "1.8.251220000",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251217001"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.WinUI.dll": {
@@ -23753,6 +24459,22 @@
         },
         "runtime": {
           "lib/net9.0/System.Numerics.Tensors.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Speech/10.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/System.Speech.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/System.Speech.dll": {
             "related": ".xml"
           }
         },
@@ -23762,6 +24484,42 @@
       }
     },
     "net10.0-windows10.0.19041/android-x64": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".pri;.xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41",
+          "Microsoft.WindowsAppSDK": "1.8.260101001",
+          "System.Speech": "10.0.1"
+        },
+        "compile": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".pri;.xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -24360,29 +25118,29 @@
           "buildTransitive/Microsoft.Windows.SDK.BuildTools.MSIX.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.8.251106002": {
+      "Microsoft.WindowsAppSDK/1.8.260101001": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.AI": "[1.8.39]",
-          "Microsoft.WindowsAppSDK.Base": "[1.8.250831001]",
-          "Microsoft.WindowsAppSDK.DWrite": "[1.8.25090401]",
-          "Microsoft.WindowsAppSDK.Foundation": "[1.8.251104000]",
-          "Microsoft.WindowsAppSDK.InteractiveExperiences": "[1.8.251104001]",
-          "Microsoft.WindowsAppSDK.ML": "[1.8.2109]",
-          "Microsoft.WindowsAppSDK.Runtime": "[1.8.251106002]",
-          "Microsoft.WindowsAppSDK.Widgets": "[1.8.250904007]",
-          "Microsoft.WindowsAppSDK.WinUI": "[1.8.251105000]"
+          "Microsoft.WindowsAppSDK.AI": "[1.8.44]",
+          "Microsoft.WindowsAppSDK.Base": "[1.8.251216001]",
+          "Microsoft.WindowsAppSDK.DWrite": "[1.8.25122902]",
+          "Microsoft.WindowsAppSDK.Foundation": "[1.8.251220000]",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "[1.8.251217001]",
+          "Microsoft.WindowsAppSDK.ML": "[1.8.2119]",
+          "Microsoft.WindowsAppSDK.Runtime": "[1.8.260101001]",
+          "Microsoft.WindowsAppSDK.Widgets": "[1.8.251231004]",
+          "Microsoft.WindowsAppSDK.WinUI": "[1.8.251222000]"
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.AI/1.8.39": {
+      "Microsoft.WindowsAppSDK.AI/1.8.44": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.Foundation": "1.8.251104000"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.Foundation": "1.8.251220000"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.Graphics.Imaging.Projection.dll": {},
@@ -24405,7 +25163,7 @@
           "buildTransitive/Microsoft.WindowsAppSDK.AI.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Base/1.8.250831001": {
+      "Microsoft.WindowsAppSDK.Base/1.8.251216001": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.26100.4654",
@@ -24416,21 +25174,21 @@
           "buildTransitive/Microsoft.WindowsAppSDK.Base.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.DWrite/1.8.25090401": {
+      "Microsoft.WindowsAppSDK.DWrite/1.8.25122902": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.DWrite.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.DWrite.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Foundation/1.8.251104000": {
+      "Microsoft.WindowsAppSDK.Foundation/1.8.251220000": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251104001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251217001"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.Security.Authentication.OAuth.Projection.dll": {},
@@ -24527,10 +25285,10 @@
           "buildTransitive/Microsoft.WindowsAppSDK.Foundation.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.InteractiveExperiences/1.8.251104001": {
+      "Microsoft.WindowsAppSDK.InteractiveExperiences/1.8.251217001": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "compile": {
           "lib/net6.0-windows10.0.18362.0/Microsoft.InteractiveExperiences.Projection.dll": {
@@ -24547,11 +25305,11 @@
           "buildTransitive/Microsoft.WindowsAppSDK.InteractiveExperiences.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.ML/1.8.2109": {
+      "Microsoft.WindowsAppSDK.ML/1.8.2119": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.Foundation": "1.8.251104000",
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.Foundation": "1.8.251220000",
           "System.Numerics.Tensors": "9.0.0"
         },
         "compile": {
@@ -24567,20 +25325,20 @@
           "buildTransitive/Microsoft.WindowsAppSDK.ML.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Runtime/1.8.251106002": {
+      "Microsoft.WindowsAppSDK.Runtime/1.8.260101001": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.Runtime.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.Runtime.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Widgets/1.8.250904007": {
+      "Microsoft.WindowsAppSDK.Widgets/1.8.251231004": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.Windows.Widgets.Projection.dll": {
@@ -24597,13 +25355,13 @@
           "buildTransitive/Microsoft.WindowsAppSDK.Widgets.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.WinUI/1.8.251105000": {
+      "Microsoft.WindowsAppSDK.WinUI/1.8.251222000": {
         "type": "package",
         "dependencies": {
           "Microsoft.Web.WebView2": "1.0.3179.45",
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.Foundation": "1.8.251104000",
-          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251104001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.Foundation": "1.8.251220000",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251217001"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.WinUI.dll": {
@@ -24646,6 +25404,22 @@
         },
         "runtime": {
           "lib/net9.0/System.Numerics.Tensors.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Speech/10.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/System.Speech.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/System.Speech.dll": {
             "related": ".xml"
           }
         },
@@ -24655,6 +25429,42 @@
       }
     },
     "net10.0-windows10.0.19041/iossimulator-x64": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".pri;.xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41",
+          "Microsoft.WindowsAppSDK": "1.8.260101001",
+          "System.Speech": "10.0.1"
+        },
+        "compile": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".pri;.xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -25253,29 +26063,29 @@
           "buildTransitive/Microsoft.Windows.SDK.BuildTools.MSIX.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.8.251106002": {
+      "Microsoft.WindowsAppSDK/1.8.260101001": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.AI": "[1.8.39]",
-          "Microsoft.WindowsAppSDK.Base": "[1.8.250831001]",
-          "Microsoft.WindowsAppSDK.DWrite": "[1.8.25090401]",
-          "Microsoft.WindowsAppSDK.Foundation": "[1.8.251104000]",
-          "Microsoft.WindowsAppSDK.InteractiveExperiences": "[1.8.251104001]",
-          "Microsoft.WindowsAppSDK.ML": "[1.8.2109]",
-          "Microsoft.WindowsAppSDK.Runtime": "[1.8.251106002]",
-          "Microsoft.WindowsAppSDK.Widgets": "[1.8.250904007]",
-          "Microsoft.WindowsAppSDK.WinUI": "[1.8.251105000]"
+          "Microsoft.WindowsAppSDK.AI": "[1.8.44]",
+          "Microsoft.WindowsAppSDK.Base": "[1.8.251216001]",
+          "Microsoft.WindowsAppSDK.DWrite": "[1.8.25122902]",
+          "Microsoft.WindowsAppSDK.Foundation": "[1.8.251220000]",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "[1.8.251217001]",
+          "Microsoft.WindowsAppSDK.ML": "[1.8.2119]",
+          "Microsoft.WindowsAppSDK.Runtime": "[1.8.260101001]",
+          "Microsoft.WindowsAppSDK.Widgets": "[1.8.251231004]",
+          "Microsoft.WindowsAppSDK.WinUI": "[1.8.251222000]"
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.AI/1.8.39": {
+      "Microsoft.WindowsAppSDK.AI/1.8.44": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.Foundation": "1.8.251104000"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.Foundation": "1.8.251220000"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.Graphics.Imaging.Projection.dll": {},
@@ -25298,7 +26108,7 @@
           "buildTransitive/Microsoft.WindowsAppSDK.AI.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Base/1.8.250831001": {
+      "Microsoft.WindowsAppSDK.Base/1.8.251216001": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.26100.4654",
@@ -25309,21 +26119,21 @@
           "buildTransitive/Microsoft.WindowsAppSDK.Base.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.DWrite/1.8.25090401": {
+      "Microsoft.WindowsAppSDK.DWrite/1.8.25122902": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.DWrite.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.DWrite.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Foundation/1.8.251104000": {
+      "Microsoft.WindowsAppSDK.Foundation/1.8.251220000": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251104001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251217001"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.Security.Authentication.OAuth.Projection.dll": {},
@@ -25420,10 +26230,10 @@
           "buildTransitive/Microsoft.WindowsAppSDK.Foundation.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.InteractiveExperiences/1.8.251104001": {
+      "Microsoft.WindowsAppSDK.InteractiveExperiences/1.8.251217001": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "compile": {
           "lib/net6.0-windows10.0.18362.0/Microsoft.InteractiveExperiences.Projection.dll": {
@@ -25440,11 +26250,11 @@
           "buildTransitive/Microsoft.WindowsAppSDK.InteractiveExperiences.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.ML/1.8.2109": {
+      "Microsoft.WindowsAppSDK.ML/1.8.2119": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.Foundation": "1.8.251104000",
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.Foundation": "1.8.251220000",
           "System.Numerics.Tensors": "9.0.0"
         },
         "compile": {
@@ -25460,20 +26270,20 @@
           "buildTransitive/Microsoft.WindowsAppSDK.ML.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Runtime/1.8.251106002": {
+      "Microsoft.WindowsAppSDK.Runtime/1.8.260101001": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.Runtime.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.Runtime.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Widgets/1.8.250904007": {
+      "Microsoft.WindowsAppSDK.Widgets/1.8.251231004": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.Windows.Widgets.Projection.dll": {
@@ -25490,13 +26300,13 @@
           "buildTransitive/Microsoft.WindowsAppSDK.Widgets.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.WinUI/1.8.251105000": {
+      "Microsoft.WindowsAppSDK.WinUI/1.8.251222000": {
         "type": "package",
         "dependencies": {
           "Microsoft.Web.WebView2": "1.0.3179.45",
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.Foundation": "1.8.251104000",
-          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251104001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.Foundation": "1.8.251220000",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251217001"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.WinUI.dll": {
@@ -25539,6 +26349,22 @@
         },
         "runtime": {
           "lib/net9.0/System.Numerics.Tensors.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
+      },
+      "System.Speech/10.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/System.Speech.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/System.Speech.dll": {
             "related": ".xml"
           }
         },
@@ -25548,6 +26374,42 @@
       }
     },
     "net10.0-windows10.0.19041/maccatalyst-x64": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".pri;.xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41",
+          "Microsoft.WindowsAppSDK": "1.8.260101001",
+          "System.Speech": "10.0.1"
+        },
+        "compile": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".pri;.xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -26146,29 +27008,29 @@
           "buildTransitive/Microsoft.Windows.SDK.BuildTools.MSIX.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.8.251106002": {
+      "Microsoft.WindowsAppSDK/1.8.260101001": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.AI": "[1.8.39]",
-          "Microsoft.WindowsAppSDK.Base": "[1.8.250831001]",
-          "Microsoft.WindowsAppSDK.DWrite": "[1.8.25090401]",
-          "Microsoft.WindowsAppSDK.Foundation": "[1.8.251104000]",
-          "Microsoft.WindowsAppSDK.InteractiveExperiences": "[1.8.251104001]",
-          "Microsoft.WindowsAppSDK.ML": "[1.8.2109]",
-          "Microsoft.WindowsAppSDK.Runtime": "[1.8.251106002]",
-          "Microsoft.WindowsAppSDK.Widgets": "[1.8.250904007]",
-          "Microsoft.WindowsAppSDK.WinUI": "[1.8.251105000]"
+          "Microsoft.WindowsAppSDK.AI": "[1.8.44]",
+          "Microsoft.WindowsAppSDK.Base": "[1.8.251216001]",
+          "Microsoft.WindowsAppSDK.DWrite": "[1.8.25122902]",
+          "Microsoft.WindowsAppSDK.Foundation": "[1.8.251220000]",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "[1.8.251217001]",
+          "Microsoft.WindowsAppSDK.ML": "[1.8.2119]",
+          "Microsoft.WindowsAppSDK.Runtime": "[1.8.260101001]",
+          "Microsoft.WindowsAppSDK.Widgets": "[1.8.251231004]",
+          "Microsoft.WindowsAppSDK.WinUI": "[1.8.251222000]"
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.AI/1.8.39": {
+      "Microsoft.WindowsAppSDK.AI/1.8.44": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.Foundation": "1.8.251104000"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.Foundation": "1.8.251220000"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.Graphics.Imaging.Projection.dll": {},
@@ -26191,7 +27053,7 @@
           "buildTransitive/Microsoft.WindowsAppSDK.AI.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Base/1.8.250831001": {
+      "Microsoft.WindowsAppSDK.Base/1.8.251216001": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.26100.4654",
@@ -26202,21 +27064,21 @@
           "buildTransitive/Microsoft.WindowsAppSDK.Base.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.DWrite/1.8.25090401": {
+      "Microsoft.WindowsAppSDK.DWrite/1.8.25122902": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.DWrite.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.DWrite.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Foundation/1.8.251104000": {
+      "Microsoft.WindowsAppSDK.Foundation/1.8.251220000": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251104001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251217001"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.Security.Authentication.OAuth.Projection.dll": {},
@@ -26313,10 +27175,10 @@
           "buildTransitive/Microsoft.WindowsAppSDK.Foundation.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.InteractiveExperiences/1.8.251104001": {
+      "Microsoft.WindowsAppSDK.InteractiveExperiences/1.8.251217001": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "compile": {
           "lib/net6.0-windows10.0.18362.0/Microsoft.InteractiveExperiences.Projection.dll": {
@@ -26333,11 +27195,11 @@
           "buildTransitive/Microsoft.WindowsAppSDK.InteractiveExperiences.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.ML/1.8.2109": {
+      "Microsoft.WindowsAppSDK.ML/1.8.2119": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.Foundation": "1.8.251104000",
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.Foundation": "1.8.251220000",
           "System.Numerics.Tensors": "9.0.0"
         },
         "compile": {
@@ -26353,20 +27215,20 @@
           "buildTransitive/Microsoft.WindowsAppSDK.ML.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Runtime/1.8.251106002": {
+      "Microsoft.WindowsAppSDK.Runtime/1.8.260101001": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.Runtime.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.Runtime.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Widgets/1.8.250904007": {
+      "Microsoft.WindowsAppSDK.Widgets/1.8.251231004": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.Windows.Widgets.Projection.dll": {
@@ -26383,13 +27245,13 @@
           "buildTransitive/Microsoft.WindowsAppSDK.Widgets.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.WinUI/1.8.251105000": {
+      "Microsoft.WindowsAppSDK.WinUI/1.8.251222000": {
         "type": "package",
         "dependencies": {
           "Microsoft.Web.WebView2": "1.0.3179.45",
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.Foundation": "1.8.251104000",
-          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251104001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.Foundation": "1.8.251220000",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251217001"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.WinUI.dll": {
@@ -26438,9 +27300,61 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "System.Speech/10.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/System.Speech.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/System.Speech.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
       }
     },
     "net10.0-windows10.0.19041/win-x64": {
+      "CommunityToolkit.Maui/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "CommunityToolkit.Maui.Core": "14.1.0",
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "compile": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.dll": {
+            "related": ".pri;.xml"
+          }
+        }
+      },
+      "CommunityToolkit.Maui.Core/14.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Maui.Core": "10.0.41",
+          "Microsoft.Maui.Essentials": "10.0.41",
+          "Microsoft.WindowsAppSDK": "1.8.260101001",
+          "System.Speech": "10.0.1"
+        },
+        "compile": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".pri;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
+            "related": ".pri;.xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/10.0.0": {
         "type": "package",
         "dependencies": {
@@ -27045,29 +27959,29 @@
           "buildTransitive/Microsoft.Windows.SDK.BuildTools.MSIX.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK/1.8.251106002": {
+      "Microsoft.WindowsAppSDK/1.8.260101001": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.AI": "[1.8.39]",
-          "Microsoft.WindowsAppSDK.Base": "[1.8.250831001]",
-          "Microsoft.WindowsAppSDK.DWrite": "[1.8.25090401]",
-          "Microsoft.WindowsAppSDK.Foundation": "[1.8.251104000]",
-          "Microsoft.WindowsAppSDK.InteractiveExperiences": "[1.8.251104001]",
-          "Microsoft.WindowsAppSDK.ML": "[1.8.2109]",
-          "Microsoft.WindowsAppSDK.Runtime": "[1.8.251106002]",
-          "Microsoft.WindowsAppSDK.Widgets": "[1.8.250904007]",
-          "Microsoft.WindowsAppSDK.WinUI": "[1.8.251105000]"
+          "Microsoft.WindowsAppSDK.AI": "[1.8.44]",
+          "Microsoft.WindowsAppSDK.Base": "[1.8.251216001]",
+          "Microsoft.WindowsAppSDK.DWrite": "[1.8.25122902]",
+          "Microsoft.WindowsAppSDK.Foundation": "[1.8.251220000]",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "[1.8.251217001]",
+          "Microsoft.WindowsAppSDK.ML": "[1.8.2119]",
+          "Microsoft.WindowsAppSDK.Runtime": "[1.8.260101001]",
+          "Microsoft.WindowsAppSDK.Widgets": "[1.8.251231004]",
+          "Microsoft.WindowsAppSDK.WinUI": "[1.8.251222000]"
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.AI/1.8.39": {
+      "Microsoft.WindowsAppSDK.AI/1.8.44": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.Foundation": "1.8.251104000"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.Foundation": "1.8.251220000"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.Graphics.Imaging.Projection.dll": {},
@@ -27090,7 +28004,7 @@
           "buildTransitive/Microsoft.WindowsAppSDK.AI.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Base/1.8.250831001": {
+      "Microsoft.WindowsAppSDK.Base/1.8.251216001": {
         "type": "package",
         "dependencies": {
           "Microsoft.Windows.SDK.BuildTools": "10.0.26100.4654",
@@ -27101,21 +28015,21 @@
           "buildTransitive/Microsoft.WindowsAppSDK.Base.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.DWrite/1.8.25090401": {
+      "Microsoft.WindowsAppSDK.DWrite/1.8.25122902": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.DWrite.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.DWrite.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Foundation/1.8.251104000": {
+      "Microsoft.WindowsAppSDK.Foundation/1.8.251220000": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251104001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251217001"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.Security.Authentication.OAuth.Projection.dll": {},
@@ -27216,10 +28130,10 @@
           "buildTransitive/Microsoft.WindowsAppSDK.Foundation.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.InteractiveExperiences/1.8.251104001": {
+      "Microsoft.WindowsAppSDK.InteractiveExperiences/1.8.251217001": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "compile": {
           "lib/net6.0-windows10.0.18362.0/Microsoft.InteractiveExperiences.Projection.dll": {
@@ -27236,11 +28150,11 @@
           "buildTransitive/Microsoft.WindowsAppSDK.InteractiveExperiences.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.ML/1.8.2109": {
+      "Microsoft.WindowsAppSDK.ML/1.8.2119": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.Foundation": "1.8.251104000",
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.Foundation": "1.8.251220000",
           "System.Numerics.Tensors": "9.0.0"
         },
         "compile": {
@@ -27256,20 +28170,20 @@
           "buildTransitive/Microsoft.WindowsAppSDK.ML.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Runtime/1.8.251106002": {
+      "Microsoft.WindowsAppSDK.Runtime/1.8.260101001": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.Runtime.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.Runtime.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.Widgets/1.8.250904007": {
+      "Microsoft.WindowsAppSDK.Widgets/1.8.251231004": {
         "type": "package",
         "dependencies": {
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.Windows.Widgets.Projection.dll": {
@@ -27286,13 +28200,13 @@
           "buildTransitive/Microsoft.WindowsAppSDK.Widgets.targets": {}
         }
       },
-      "Microsoft.WindowsAppSDK.WinUI/1.8.251105000": {
+      "Microsoft.WindowsAppSDK.WinUI/1.8.251222000": {
         "type": "package",
         "dependencies": {
           "Microsoft.Web.WebView2": "1.0.3179.45",
-          "Microsoft.WindowsAppSDK.Base": "1.8.250831001",
-          "Microsoft.WindowsAppSDK.Foundation": "1.8.251104000",
-          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251104001"
+          "Microsoft.WindowsAppSDK.Base": "1.8.251216001",
+          "Microsoft.WindowsAppSDK.Foundation": "1.8.251220000",
+          "Microsoft.WindowsAppSDK.InteractiveExperiences": "1.8.251217001"
         },
         "compile": {
           "lib/net6.0-windows10.0.17763.0/Microsoft.WinUI.dll": {
@@ -27341,10 +28255,77 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "System.Speech/10.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/System.Speech.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "runtimes/win/lib/net10.0/System.Speech.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/_._": {}
+        }
       }
     }
   },
   "libraries": {
+    "CommunityToolkit.Maui/14.1.0": {
+      "sha512": "ycbecVj342+2LIwkZsq5IMdTASfWwxp3lIhf/UCOxPsPsbMjD58uj7u5XY/hG4NQ33XofnL3TYA2H8Vly8CIHA==",
+      "type": "package",
+      "path": "communitytoolkit.maui/14.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ReadMe.txt",
+        "analyzers/dotnet/cs/CommunityToolkit.Maui.Analyzers.CodeFixes.dll",
+        "analyzers/dotnet/cs/CommunityToolkit.Maui.Analyzers.dll",
+        "analyzers/dotnet/cs/CommunityToolkit.Maui.SourceGenerators.dll",
+        "communitytoolkit.maui.14.1.0.nupkg.sha512",
+        "communitytoolkit.maui.nuspec",
+        "icon.png",
+        "lib/net10.0-android36.0/CommunityToolkit.Maui.dll",
+        "lib/net10.0-android36.0/CommunityToolkit.Maui.xml",
+        "lib/net10.0-ios26.0/CommunityToolkit.Maui.dll",
+        "lib/net10.0-ios26.0/CommunityToolkit.Maui.xml",
+        "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.dll",
+        "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.xml",
+        "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.dll",
+        "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.pri",
+        "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.xml",
+        "lib/net10.0/CommunityToolkit.Maui.dll",
+        "lib/net10.0/CommunityToolkit.Maui.xml"
+      ]
+    },
+    "CommunityToolkit.Maui.Core/14.1.0": {
+      "sha512": "ENnBjEbaaCm6par4BHVaLThWM5WNflBjo1HquPreowfvFYhQWmppz3DABIvZYnez+qBeHyut2+bWGTbeh3uJHw==",
+      "type": "package",
+      "path": "communitytoolkit.maui.core/14.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ReadMe.txt",
+        "communitytoolkit.maui.core.14.1.0.nupkg.sha512",
+        "communitytoolkit.maui.core.nuspec",
+        "icon.png",
+        "lib/net10.0-android36.0/CommunityToolkit.Maui.Core.dll",
+        "lib/net10.0-android36.0/CommunityToolkit.Maui.Core.xml",
+        "lib/net10.0-ios26.0/CommunityToolkit.Maui.Core.dll",
+        "lib/net10.0-ios26.0/CommunityToolkit.Maui.Core.xml",
+        "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.Core.dll",
+        "lib/net10.0-maccatalyst26.0/CommunityToolkit.Maui.Core.xml",
+        "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll",
+        "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.Core.pri",
+        "lib/net10.0-windows10.0.19041/CommunityToolkit.Maui.Core.xml",
+        "lib/net10.0/CommunityToolkit.Maui.Core.dll",
+        "lib/net10.0/CommunityToolkit.Maui.Core.xml"
+      ]
+    },
     "GoogleGson/2.13.1.1": {
       "sha512": "1yD5W1UPmgEEHrqdtVJI7330h1foGWiehVC07er3NiZxJPMmphTmPz2kuSXawIo8xmeIvd92WpiTOEmYpk6mzQ==",
       "type": "package",
@@ -29062,10 +30043,10 @@
         "tools/net6.0/Newtonsoft.Json.dll"
       ]
     },
-    "Microsoft.WindowsAppSDK/1.8.251106002": {
-      "sha512": "IiDYOHJahku9GuajXLCNWkrhsG+Fbd2GsWpINLXhm3nF8mXzGPmFtateotJWnE0BKCa4Ua1+O4nYJ4gUC9+NXg==",
+    "Microsoft.WindowsAppSDK/1.8.260101001": {
+      "sha512": "sXb7YljdIpG2MFG/i/es69lxOdfcTYKj+85jhOQU815imDFU+tk4LmT8eRDZUEmDNHyQMtAEZdGWecbA+Hu3QQ==",
       "type": "package",
-      "path": "microsoft.windowsappsdk/1.8.251106002",
+      "path": "microsoft.windowsappsdk/1.8.260101001",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -29080,14 +30061,14 @@
         "buildTransitive/native/Microsoft.WindowsAppSDK.props",
         "buildTransitive/native/Microsoft.WindowsAppSDK.targets",
         "license.txt",
-        "microsoft.windowsappsdk.1.8.251106002.nupkg.sha512",
+        "microsoft.windowsappsdk.1.8.260101001.nupkg.sha512",
         "microsoft.windowsappsdk.nuspec"
       ]
     },
-    "Microsoft.WindowsAppSDK.AI/1.8.39": {
-      "sha512": "jYx8PqQZjB59MU+/IcelwWa0iUnNYkSIWyirDLb50/6uaSVK+FMKsdvV5ZxVuQmBIBUjqReOLRAdlsxxOVAE1Q==",
+    "Microsoft.WindowsAppSDK.AI/1.8.44": {
+      "sha512": "6b9ib6x5IMF+WMqypCReB7CItqEpyV0eViZ0jX1d00Po60/xAYvEiFSSSj99c8p+Qb1rlAq9tbrCLLCiIR0cpg==",
       "type": "package",
-      "path": "microsoft.windowsappsdk.ai/1.8.39",
+      "path": "microsoft.windowsappsdk.ai/1.8.44",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -29113,7 +30094,7 @@
         "metadata/Microsoft.Windows.AI.Text.winmd",
         "metadata/Microsoft.Windows.AI.winmd",
         "metadata/Microsoft.Windows.Workloads.winmd",
-        "microsoft.windowsappsdk.ai.1.8.39.nupkg.sha512",
+        "microsoft.windowsappsdk.ai.1.8.44.nupkg.sha512",
         "microsoft.windowsappsdk.ai.nuspec",
         "runtimes-framework/package.appxfragment",
         "runtimes-framework/win-arm64/native/Microsoft.Graphics.Imaging.dll",
@@ -29139,6 +30120,7 @@
         "runtimes-framework/win-arm64/native/Microsoft.Windows.Workloads.pri",
         "runtimes-framework/win-arm64/native/NpuDetect/NPUDetect.dll",
         "runtimes-framework/win-arm64/native/SessionHandleIPCProxyStub.dll",
+        "runtimes-framework/win-arm64/native/workloads.j32.json",
         "runtimes-framework/win-arm64/native/workloads.json",
         "runtimes-framework/win-arm64/native/workloads.qnn.json",
         "runtimes-framework/win-arm64ec/native/Microsoft.Graphics.Imaging.dll",
@@ -29166,6 +30148,7 @@
         "runtimes-framework/win-arm64ec/native/NpuDetect/NPUDetect.dll",
         "runtimes-framework/win-arm64ec/native/SessionHandleIPCProxyStub.dll",
         "runtimes-framework/win-arm64ec/native/workloads.365.json",
+        "runtimes-framework/win-arm64ec/native/workloads.j32.json",
         "runtimes-framework/win-arm64ec/native/workloads.json",
         "runtimes-framework/win-arm64ec/native/workloads.lnl.json",
         "runtimes-framework/win-arm64ec/native/workloads.qnn.json",
@@ -29195,16 +30178,17 @@
         "runtimes-framework/win-x64/native/NpuDetect/NPUDetect.dll",
         "runtimes-framework/win-x64/native/SessionHandleIPCProxyStub.dll",
         "runtimes-framework/win-x64/native/workloads.365.json",
+        "runtimes-framework/win-x64/native/workloads.j32.json",
         "runtimes-framework/win-x64/native/workloads.json",
         "runtimes-framework/win-x64/native/workloads.lnl.json",
         "runtimes-framework/win-x64/native/workloads.qnn.json",
         "runtimes-framework/win-x64/native/workloads.stx.json"
       ]
     },
-    "Microsoft.WindowsAppSDK.Base/1.8.250831001": {
-      "sha512": "8LlfXBS2Hpw+OoVXViJmIOPXl0nMbqMaFR3j6+QHFNc62VULwPEcXiMRcP2WbV/+mtC7W2LH6yx6uu/Hrr9lVw==",
+    "Microsoft.WindowsAppSDK.Base/1.8.251216001": {
+      "sha512": "PS1wriuFknz3W2F2P/e6RvOTM35w89Lsj/f0QmUEPrJjKnc+jM0JLX1vfdytI14y1gNRUTm9uclwP0aH/SVU5w==",
       "type": "package",
-      "path": "microsoft.windowsappsdk.base/1.8.250831001",
+      "path": "microsoft.windowsappsdk.base/1.8.251216001",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -29227,14 +30211,14 @@
         "buildTransitive/native/Microsoft.WindowsAppSDK.Base.props",
         "buildTransitive/native/Microsoft.WindowsAppSDK.Base.targets",
         "license.txt",
-        "microsoft.windowsappsdk.base.1.8.250831001.nupkg.sha512",
+        "microsoft.windowsappsdk.base.1.8.251216001.nupkg.sha512",
         "microsoft.windowsappsdk.base.nuspec"
       ]
     },
-    "Microsoft.WindowsAppSDK.DWrite/1.8.25090401": {
-      "sha512": "WJ0p9yMgiNYqU2O5ZKCXcb7FBjryIUUopgeYMvnlf1yBUYgdjMFMkoJqYVqkz866wnntiB2IZhLxEzhFzvVs1A==",
+    "Microsoft.WindowsAppSDK.DWrite/1.8.25122902": {
+      "sha512": "zFNn07i7Cyz62Y8FnPQAyzeZK7ww3m9t42i9pzy4C04pNbyUDQ4fG7pB6VSh6n4EyFuYtuFQuDzt4mKmXFrkrg==",
       "type": "package",
-      "path": "microsoft.windowsappsdk.dwrite/1.8.25090401",
+      "path": "microsoft.windowsappsdk.dwrite/1.8.25122902",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -29254,7 +30238,7 @@
         "lib/native/x64/DWriteCore.lib",
         "lib/native/x86/DWriteCore.lib",
         "license.txt",
-        "microsoft.windowsappsdk.dwrite.1.8.25090401.nupkg.sha512",
+        "microsoft.windowsappsdk.dwrite.1.8.25122902.nupkg.sha512",
         "microsoft.windowsappsdk.dwrite.nuspec",
         "runtimes-framework/win-arm64/native/DWriteCore.dll",
         "runtimes-framework/win-arm64ec/native/DWriteCore.dll",
@@ -29262,10 +30246,10 @@
         "runtimes-framework/win-x86/native/DWriteCore.dll"
       ]
     },
-    "Microsoft.WindowsAppSDK.Foundation/1.8.251104000": {
-      "sha512": "vvL3zpC8klGcaxUA7RbMuUMVAABD7jEMFhNKGAewOvey18i64mslbU0aIQM3+Bu4tQKsaGXSWYrJFsAU/Op4OA==",
+    "Microsoft.WindowsAppSDK.Foundation/1.8.251220000": {
+      "sha512": "3S64+LoMIXLO/488auf1/qk1gt5Hr7RpdF0iUb82A+NoByX+6eScNhL3kZf2TIiOcwxfGjtefYJC4MOqXD2IrA==",
       "type": "package",
-      "path": "microsoft.windowsappsdk.foundation/1.8.251104000",
+      "path": "microsoft.windowsappsdk.foundation/1.8.251220000",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -29409,7 +30393,7 @@
         "metadata/Microsoft.Windows.System.Power.xml",
         "metadata/Microsoft.Windows.System.winmd",
         "metadata/Microsoft.Windows.System.xml",
-        "microsoft.windowsappsdk.foundation.1.8.251104000.nupkg.sha512",
+        "microsoft.windowsappsdk.foundation.1.8.251220000.nupkg.sha512",
         "microsoft.windowsappsdk.foundation.nuspec",
         "runtimes-framework/package.appxfragment",
         "runtimes-framework/win-arm64/native/DeploymentAgent.exe",
@@ -29450,10 +30434,10 @@
         "runtimes/win-x86/native/Microsoft.WindowsAppRuntime.Bootstrap.dll"
       ]
     },
-    "Microsoft.WindowsAppSDK.InteractiveExperiences/1.8.251104001": {
-      "sha512": "t4Vs1eMJqUpa5CbZ5SvO4j5VdyhNwtarNfYJAWar8dHejpNol3g+/t0l0ovKye+DKQpinWdGkuQSUX8Oc8M3ug==",
+    "Microsoft.WindowsAppSDK.InteractiveExperiences/1.8.251217001": {
+      "sha512": "npyHn+Qi8/DD0xBASL8+Ga9iWYz4P9M8BeiYYCRWOY8DMZkYQd8PCuJkA81Qm+2yNXGcn7osz7RgycZiIv0ONQ==",
       "type": "package",
-      "path": "microsoft.windowsappsdk.interactiveexperiences/1.8.251104001",
+      "path": "microsoft.windowsappsdk.interactiveexperiences/1.8.251217001",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -29528,7 +30512,7 @@
         "metadata/10.0.18362.0/Microsoft.Graphics.xml",
         "metadata/10.0.18362.0/Microsoft.UI.winmd",
         "metadata/10.0.18362.0/Microsoft.UI.xml",
-        "microsoft.windowsappsdk.interactiveexperiences.1.8.251104001.nupkg.sha512",
+        "microsoft.windowsappsdk.interactiveexperiences.1.8.251217001.nupkg.sha512",
         "microsoft.windowsappsdk.interactiveexperiences.nuspec",
         "runtimes-framework/package.appxfragment",
         "runtimes-framework/win-arm64/native/CoreMessagingXP.dll",
@@ -29601,10 +30585,10 @@
         "runtimes-framework/win-x86/native/wuceffectsi.dll"
       ]
     },
-    "Microsoft.WindowsAppSDK.ML/1.8.2109": {
-      "sha512": "gfsSXBJrlsfnl1IID3AEasUvZXFFZk6n4iD2JP5BfheySaoWr/1JJVbqKYyRr7APe2kRzyztVW3eaj7KMfgR5A==",
+    "Microsoft.WindowsAppSDK.ML/1.8.2119": {
+      "sha512": "hIOkLSBBVxp/MfK3NwU1H1y7x6fDFS2Fn+HDQHYVroDYV1QJ43GFuKW6BAUb0OFZveyK0vGiEFWF7Zp9q6vUIg==",
       "type": "package",
-      "path": "microsoft.windowsappsdk.ml/1.8.2109",
+      "path": "microsoft.windowsappsdk.ml/1.8.2119",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -29646,7 +30630,7 @@
         "lib/net8.0-windows10.0.17763.0/Microsoft.Windows.AI.MachineLearning.Projection.dll",
         "license.txt",
         "metadata/Microsoft.Windows.AI.MachineLearning.winmd",
-        "microsoft.windowsappsdk.ml.1.8.2109.nupkg.sha512",
+        "microsoft.windowsappsdk.ml.1.8.2119.nupkg.sha512",
         "microsoft.windowsappsdk.ml.nuspec",
         "runtimes-framework/package.appxfragment",
         "runtimes-framework/win-arm64/native/DirectML.dll",
@@ -29662,10 +30646,10 @@
         "runtimes-framework/win-x64/native/onnxruntime_providers_shared.dll"
       ]
     },
-    "Microsoft.WindowsAppSDK.Runtime/1.8.251106002": {
-      "sha512": "5piaqsoXOTFXdtiGoqLhVPkG0HE3UD0g/S4D2i7I8MPO48eoaESJ4y/oUHzZFmSaqLQROWe8NJ9rXXNxxiL/gw==",
+    "Microsoft.WindowsAppSDK.Runtime/1.8.260101001": {
+      "sha512": "owDHXr1nmfO1V8mH/fCGT6izgkDZlufBAt7mUP335GpqkDPQ6RiRdAnEp2PWQiLrCcom1fL7WKyhrA3vN5ERZw==",
       "type": "package",
-      "path": "microsoft.windowsappsdk.runtime/1.8.251106002",
+      "path": "microsoft.windowsappsdk.runtime/1.8.260101001",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -29691,7 +30675,7 @@
         "include/WindowsAppSDK-VersionInfo.cs",
         "include/WindowsAppSDK-VersionInfo.h",
         "license.txt",
-        "microsoft.windowsappsdk.runtime.1.8.251106002.nupkg.sha512",
+        "microsoft.windowsappsdk.runtime.1.8.260101001.nupkg.sha512",
         "microsoft.windowsappsdk.runtime.nuspec",
         "tools/MSIX/win10-arm64/MSIX.inventory",
         "tools/MSIX/win10-arm64/Microsoft.WindowsAppRuntime.1.8.msix",
@@ -29712,10 +30696,10 @@
         "tools/MSIX/win10-x86/Microsoft.WindowsAppRuntime.Singleton.1.8.msix"
       ]
     },
-    "Microsoft.WindowsAppSDK.Widgets/1.8.250904007": {
-      "sha512": "sgwdXYhb8S4JjBmWWiFxALT1xK0fJeAbisolctmodMX7tlvBXDgUyvl/GHfTQ61DGIiW+kokX61WR46L2YlhAA==",
+    "Microsoft.WindowsAppSDK.Widgets/1.8.251231004": {
+      "sha512": "bIWqQYR8DCoB1SoPOMil5AtgtkTn438wJTdpsHgyO/6o7Eh7PMP5BzrR0KbDsFqy+4LhPWQ4vtwko5k93fECcA==",
       "type": "package",
-      "path": "microsoft.windowsappsdk.widgets/1.8.250904007",
+      "path": "microsoft.windowsappsdk.widgets/1.8.251231004",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -29732,7 +30716,7 @@
         "license.txt",
         "metadata/Microsoft.Windows.Widgets.winmd",
         "metadata/Microsoft.Windows.Widgets.xml",
-        "microsoft.windowsappsdk.widgets.1.8.250904007.nupkg.sha512",
+        "microsoft.windowsappsdk.widgets.1.8.251231004.nupkg.sha512",
         "microsoft.windowsappsdk.widgets.nuspec",
         "runtimes-framework/package.appxfragment",
         "runtimes-framework/win-arm64/native/Microsoft.Windows.Widgets.dll",
@@ -29741,10 +30725,10 @@
         "runtimes-framework/win-x86/native/Microsoft.Windows.Widgets.dll"
       ]
     },
-    "Microsoft.WindowsAppSDK.WinUI/1.8.251105000": {
-      "sha512": "G/f0Z27ALjjrrfjCUPxPSBkG6eLB20pBja8AFIOI87oYMGUKGwuMuZn7LqPkeQJMFPo04FonfljdJCIpsfnnbw==",
+    "Microsoft.WindowsAppSDK.WinUI/1.8.251222000": {
+      "sha512": "IbokgSGS7od6SJL5VD5PvA+EdZpoO+b9vDxxc6Myjspnhba3iYv53iM2q2MgxPGPvElKjpQrSx9+Q7ToFNeHpw==",
       "type": "package",
-      "path": "microsoft.windowsappsdk.winui/1.8.251105000",
+      "path": "microsoft.windowsappsdk.winui/1.8.251222000",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -29805,7 +30789,7 @@
         "metadata/Microsoft.UI.Text.xml",
         "metadata/Microsoft.UI.Xaml.winmd",
         "metadata/Microsoft.UI.Xaml.xml",
-        "microsoft.windowsappsdk.winui.1.8.251105000.nupkg.sha512",
+        "microsoft.windowsappsdk.winui.1.8.251222000.nupkg.sha512",
         "microsoft.windowsappsdk.winui.nuspec",
         "runtimes-framework/package.appxfragment",
         "runtimes-framework/win-arm64/native/Microsoft.UI.Xaml.Controls.dll",
@@ -30620,6 +31604,38 @@
         "lib/netstandard2.0/System.Numerics.Tensors.xml",
         "system.numerics.tensors.9.0.0.nupkg.sha512",
         "system.numerics.tensors.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Speech/10.0.1": {
+      "sha512": "Sra5Gv7qcZzLuQW4alVglQpnDgJiqeGmbwz8WLZa1QdqmTo4bi7FYQP5CJAzlwLDcmHrBS2L7+W6HqFT14HBTA==",
+      "type": "package",
+      "path": "system.speech/10.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net8.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Speech.targets",
+        "lib/net10.0/System.Speech.dll",
+        "lib/net10.0/System.Speech.xml",
+        "lib/net462/_._",
+        "lib/net8.0/System.Speech.dll",
+        "lib/net8.0/System.Speech.xml",
+        "lib/net9.0/System.Speech.dll",
+        "lib/net9.0/System.Speech.xml",
+        "lib/netstandard2.0/System.Speech.dll",
+        "lib/netstandard2.0/System.Speech.xml",
+        "runtimes/win/lib/net10.0/System.Speech.dll",
+        "runtimes/win/lib/net10.0/System.Speech.xml",
+        "runtimes/win/lib/net8.0/System.Speech.dll",
+        "runtimes/win/lib/net8.0/System.Speech.xml",
+        "runtimes/win/lib/net9.0/System.Speech.dll",
+        "runtimes/win/lib/net9.0/System.Speech.xml",
+        "system.speech.10.0.1.nupkg.sha512",
+        "system.speech.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -33004,24 +34020,28 @@
   },
   "projectFileDependencyGroups": {
     "net10.0-android36.0": [
+      "CommunityToolkit.Maui >= 14.1.0",
       "Microsoft.Extensions.Logging.Debug >= 10.0.5",
       "Microsoft.Maui.Controls >= 10.0.51",
       "Microsoft.NET.ILLink.Tasks >= 10.0.5",
       "System.IdentityModel.Tokens.Jwt >= 8.17.0"
     ],
     "net10.0-ios26.2": [
+      "CommunityToolkit.Maui >= 14.1.0",
       "Microsoft.Extensions.Logging.Debug >= 10.0.5",
       "Microsoft.Maui.Controls >= 10.0.51",
       "Microsoft.NET.ILLink.Tasks >= 10.0.5",
       "System.IdentityModel.Tokens.Jwt >= 8.17.0"
     ],
     "net10.0-maccatalyst26.2": [
+      "CommunityToolkit.Maui >= 14.1.0",
       "Microsoft.Extensions.Logging.Debug >= 10.0.5",
       "Microsoft.Maui.Controls >= 10.0.51",
       "Microsoft.NET.ILLink.Tasks >= 10.0.5",
       "System.IdentityModel.Tokens.Jwt >= 8.17.0"
     ],
     "net10.0-windows10.0.19041": [
+      "CommunityToolkit.Maui >= 14.1.0",
       "Microsoft.Extensions.Logging.Debug >= 10.0.5",
       "Microsoft.Maui.Controls >= 10.0.51",
       "System.IdentityModel.Tokens.Jwt >= 8.17.0"
@@ -33094,6 +34114,10 @@
       "net10.0-android36.0": {
         "targetAlias": "net10.0-android",
         "dependencies": {
+          "CommunityToolkit.Maui": {
+            "target": "Package",
+            "version": "[14.1.0, )"
+          },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "[10.0.5, )"
@@ -33414,6 +34438,10 @@
       "net10.0-ios26.2": {
         "targetAlias": "net10.0-ios",
         "dependencies": {
+          "CommunityToolkit.Maui": {
+            "target": "Package",
+            "version": "[14.1.0, )"
+          },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "[10.0.5, )"
@@ -33734,6 +34762,10 @@
       "net10.0-maccatalyst26.2": {
         "targetAlias": "net10.0-maccatalyst",
         "dependencies": {
+          "CommunityToolkit.Maui": {
+            "target": "Package",
+            "version": "[14.1.0, )"
+          },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "[10.0.5, )"
@@ -34055,6 +35087,10 @@
       "net10.0-windows10.0.19041": {
         "targetAlias": "net10.0-windows10.0.19041.0",
         "dependencies": {
+          "CommunityToolkit.Maui": {
+            "target": "Package",
+            "version": "[14.1.0, )"
+          },
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
             "version": "[10.0.5, )"

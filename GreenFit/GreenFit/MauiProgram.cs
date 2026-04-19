@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using CommunityToolkit.Maui; // Necessario per il toolkit
 
 namespace GreenFit
 {
@@ -9,12 +10,13 @@ namespace GreenFit
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .UseMauiCommunityToolkit()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
-
+                
                 Serivces.FileManager.CreateFileIfNotExists();
                 Serivces.FileManager.readFileText();
 #if DEBUG

@@ -97,6 +97,16 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
+[C:/GreenFit/GreenFit/GreenFit/Pages/PopUpAttrezzi.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.Pages.PopUpAttrezzi.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\PopUpAttrezzi.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\PopUpAttrezzi.xaml
+build_metadata.AdditionalFiles.Inflator = SourceGen
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
 [C:/GreenFit/GreenFit/GreenFit/Pages/ReviewPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.Pages.ReviewPage.xaml

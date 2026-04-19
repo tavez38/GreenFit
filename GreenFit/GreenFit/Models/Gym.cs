@@ -8,17 +8,18 @@ namespace GreenFit.Models
     {
         public int Id { get; set; }
         public string name { get; set; }
-        public string address { get; set; }
-        public double latitude { get; set; }
-        public double longitude { get; set; }
+        public  string latitude { get; set; }
+        public string longitude { get; set; }
+        public AttrezziPalestre attrezzi { get; set; } = new AttrezziPalestre();
 
-        public Gym(int id, string name, string address, double latitude, double longitude)
+        public Gym(int id, string name, string latitude, string longitude)
         {
             Id = id;
             this.name = name;
-            this.address = address;
             this.latitude = latitude;
             this.longitude = longitude;
         }
+
+        public Gym() { }
     }
 }

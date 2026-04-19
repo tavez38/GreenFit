@@ -1,3 +1,6 @@
+using CommunityToolkit.Maui.Extensions;
+using GreenFit.Models;
+
 namespace GreenFit.Pages;
 
 public partial class CreationGymPage : ContentPage
@@ -87,6 +90,21 @@ public partial class CreationGymPage : ContentPage
         catch (Exception ex)
         {
             await DisplayAlert("Errore", $"Impossibile ottenere la posizione: {ex.Message}", "OK");
+        }
+    }
+    private async void OpenPopUpClicked(object sender, EventArgs e)
+    {
+        var popup = new PopUpAttrezzi();
+
+        // Mostra il popup e attendi il risultato
+        await this.ShowPopupAsync(popup);
+
+        if (PopUpAttrezzi.SelectedItemsResult!=null)
+        {
+            // Uniamo i nomi degli attrezzi in una stringa separata da virgole
+            LblAttrezziScelti.Text = string.Join(", ", PopUpAttrezzi.SelectedItemsResult);
+
+            // Ora hai la lista 'scelti' pronta per essere salvata nel DB
         }
     }
 }

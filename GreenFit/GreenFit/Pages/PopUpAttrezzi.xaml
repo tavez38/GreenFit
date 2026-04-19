@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+               xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+               x:Class="GreenFit.Pages.PopUpAttrezzi"
+               >
+
+    <VerticalStackLayout Padding="20" WidthRequest="300" Spacing="10" BackgroundColor="White">
+        <Label Text="Seleziona Attrezzi" FontSize="18" FontAttributes="Bold" HorizontalOptions="Center" />
+
+        <CollectionView x:Name="ListaAttrezzi"
+                        SelectionMode="Multiple"
+                        HeightRequest="300">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10">
+                        <Label Text="{Binding .}" VerticalOptions="Center" TextColor="Black" />
+                        <VisualStateManager.VisualStateGroups>
+                            <VisualStateGroup Name="CommonStates">
+                                <VisualState Name="Selected">
+                                    <VisualState.Setters>
+                                        <Setter Property="BackgroundColor" Value="#D1E8FF"/>
+                                    </VisualState.Setters>
+                                </VisualState>
+                            </VisualStateGroup>
+                        </VisualStateManager.VisualStateGroups>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Text="Conferma" Clicked="OnConfirmClicked" Margin="0,10,0,0" />
+    </VerticalStackLayout>
+</toolkit:Popup>

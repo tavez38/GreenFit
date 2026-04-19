@@ -86,7 +86,10 @@
                         HorizontalOptions="Start" 
                         Margin="20,0,0,0" 
                         BackgroundColor="#EEEEEE"
-                        TextColor="Black"/>
+                        TextColor="Black"
+                        Clicked="OpenPopUpClicked"/>
+
+                <Label x:Name="LblAttrezziScelti" Text="Nessun attrezzo selezionato" TextColor="Gray" />
 
                 <Entry x:Name="GymCoordinateEntry" 
                 Placeholder="Coordinate geografiche (es. 41.9028, 12.4964)" 

@@ -1,0 +1,21 @@
+﻿using CommunityToolkit.Maui.Views;
+using GreenFit.Models;
+
+namespace GreenFit.Pages;
+
+public partial class PopUpAttrezzi : Popup
+{
+	public PopUpAttrezzi()
+	{
+		InitializeComponent();
+        ListaAttrezzi.ItemsSource = Enum.GetValues(typeof(AttrezziPalestre));
+    }
+    public void OnConfirmClicked(object sender, EventArgs e)
+    {
+        // Recupera gli elementi selezionati
+        var selezionati = ListaAttrezzi.SelectedItems.Cast<AttrezziPalestre>().ToList();
+
+        // Chiude il popup restituendo la lista
+        this.Close(selezionati);
+    }
+}
