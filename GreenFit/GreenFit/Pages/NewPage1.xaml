@@ -36,7 +36,8 @@
                     BackgroundColor="#FF9F1C" 
                     TextColor="#1B4332" 
                     CornerRadius="20" 
-                    HeightRequest="40"/>
+                    HeightRequest="40"
+                    Clicked="goToAddGymPage"/>
 
         </StackLayout>
 

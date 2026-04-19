@@ -9,6 +9,13 @@
   <uses-sdk android:minSdkVersion="21" android:targetSdkVersion="36" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
+  <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-feature android:name="android.hardware.location" android:required="false" />
+  <uses-feature android:name="android.hardware.location.gps" android:required="false" />
+  <uses-feature android:name="android.hardware.location.network" android:required="false" />
   <application android:allowBackup="true" android:icon="@mipmap/appicon" android:supportsRtl="true" android:label="GreenFit" android:name="crc640093c82f8b3bc147.MainApplication" android:debuggable="true" android:extractNativeLibs="true">
     <activity android:configChanges="density|orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:launchMode="singleTop" android:theme="@style/Maui.SplashTheme" android:name="crc640093c82f8b3bc147.MainActivity" android:exported="true">
       <intent-filter>
@@ -35,4 +42,6 @@
     <service android:name="crc64396a3fe5f8138e3f.KeepAliveService" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="1999999999" android:authorities="com.taveCompany.GreenFit.mono.MonoRuntimeProvider.__mono_init__" />
   </application>
+  <!-- righe di codice per aggiungere permessi di accesso alla galleria del dispositivo -->
+  <!-- permessi per usare la geolocalizzazione del telefono-->
 </manifest>

@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GreenFit.Pages.CreationGymPage"
              Title="Crea Palestra"
-             BackgroundColor="White">
+             BackgroundColor="#F5F7F8"
+             Shell.NavBarIsVisible="False">
 
     <Grid RowDefinitions="*, Auto">
 
@@ -26,7 +27,8 @@
                             FontSize="22" 
                             FontAttributes="Bold"
                             VerticalOptions="Center" 
-                            HorizontalOptions="End" />
+                            HorizontalOptions="End" 
+                            Clicked="goBackToMap"/>
                 </Grid>
 
                 <Grid ColumnDefinitions="Auto, Auto" HorizontalOptions="Center" ColumnSpacing="15">
@@ -38,11 +40,22 @@
                            CornerRadius="10" 
                            HasShadow="False"
                            BorderColor="Transparent"
-                           Padding="0">
-                        <Label Text="nessuna immagine" 
-                               TextColor="#808080" 
-                               HorizontalOptions="Center" 
-                               VerticalOptions="Center" />
+                           Padding="0"
+                           IsClippedToBounds="True">  <!-- per assicurarsi che l'immagine non esca dai bordi del frame e segua la sua curvatura -->
+
+                        <Grid>
+                            <Label x:Name="GymImgDefaultText" 
+                            Text="nessuna immagine" 
+                                   TextColor="#808080" 
+                                   HorizontalOptions="Center" 
+                                   VerticalOptions="Center" />
+
+                            <Image x:Name="ImgAnteprima"
+                               Aspect="AspectFill" 
+                               HorizontalOptions="Fill" 
+                               VerticalOptions="Fill"
+                               IsVisible="False" /> 
+                        </Grid>
                     </Frame>
 
                     <Button Grid.Column="1" 
@@ -50,18 +63,24 @@
                             BackgroundColor="Transparent" 
                             TextColor="Black" 
                             FontSize="30" 
-                            VerticalOptions="Center" />
+                            VerticalOptions="Center"
+                            Clicked="addImageGym"/>
                 </Grid>
 
-                <Entry Placeholder="Nome della palestra" 
+                <Entry x:Name="GymNameEntry" 
+                Placeholder="Nome della palestra" 
                        WidthRequest="300" 
-                       HorizontalOptions="Center" />
+                       HorizontalOptions="Center" 
+                       TextColor="Black"
+                       />
 
-                <Editor Placeholder="Descrizione della palestra" 
+                <Editor x:Name="GymDescEntry" 
+                Placeholder="Descrizione della palestra" 
                         WidthRequest="300" 
                         HeightRequest="110" 
                         AutoSize="TextChanges"
-                        HorizontalOptions="Center" />
+                        HorizontalOptions="Center"
+                        TextColor="Black"/>
 
                 <Button Text="+ aggiungi attrezzi" 
                         HorizontalOptions="Start" 
@@ -69,9 +88,12 @@
                         BackgroundColor="#EEEEEE"
                         TextColor="Black"/>
 
-                <Entry Placeholder="Coordinate geografiche (es. 41.9028, 12.4964)" 
+                <Entry x:Name="GymCoordinateEntry" 
+                Placeholder="Coordinate geografiche (es. 41.9028, 12.4964)" 
                        WidthRequest="300" 
-                       HorizontalOptions="Center" />
+                       HorizontalOptions="Center"
+                       TextColor="Black"
+                       Keyboard="Numeric"/>
 
             </VerticalStackLayout>
         </ScrollView>
@@ -85,13 +107,15 @@
                     BackgroundColor="Red" 
                     TextColor="White" 
                     FontAttributes="Bold"
-                    WidthRequest="150"/>
+                    WidthRequest="150"
+                    Clicked="resetAddGym"/>
 
             <Button Text="aggiungi" 
                     BackgroundColor="Green" 
                     TextColor="White" 
                     FontAttributes="Bold"
-                    WidthRequest="150"/>
+                    WidthRequest="150"
+                    Clicked="addGym"/>
 
         </HorizontalStackLayout>
 
