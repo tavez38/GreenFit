@@ -8,11 +8,13 @@
 
         <Grid Grid.Row="0" Padding="20,10" ColumnDefinitions="Auto, *, Auto">
             <Button Grid.Column="0" 
+                   BackgroundColor="White"
                    Text="←" 
                    FontSize="18" 
                    TextColor="Gray" 
                    VerticalOptions="Center" 
                    Clicked="GoToGymDetails"/>
+                   
 
             <Label Grid.Column="1" 
                    Text="GYM-BOT" 
@@ -33,7 +35,7 @@
 
             <BoxView HeightRequest="1" Color="#EEEEEE" HorizontalOptions="Fill" />
 
-            <Label Text="creo il tuo prossimo allenamento green" 
+            <Label Text="Descrivi che cosa vorresti allenare e io ti fornirò una scheda per te" 
                    FontAttributes="Bold" 
                    FontSize="18" 
                    TextColor="Black" 
@@ -93,7 +95,8 @@
                     TextColor="White" 
                     CornerRadius="25" 
                     WidthRequest="50" 
-                    HeightRequest="50" />
+                    HeightRequest="50"
+                    Clicked="SendAIRequest"/>
         </Grid>
 
     </Grid>
