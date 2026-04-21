@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "57kk0hrvhrs=",
+  "dgSpecHash": "XrYb9tQqP1w=",
   "success": true,
   "projectFilePath": "C:\\GreenFit\\GreenFit\\GreenFit\\GreenFit.csproj",
   "expectedPackageFiles": [
@@ -34,7 +34,7 @@
     "C:\\Users\\HEW16A0020NL\\.nuget\\packages\\microsoft.maui.graphics\\10.0.51\\microsoft.maui.graphics.10.0.51.nupkg.sha512",
     "C:\\Users\\HEW16A0020NL\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\10.0.51\\microsoft.maui.graphics.win2d.winui.desktop.10.0.51.nupkg.sha512",
     "C:\\Users\\HEW16A0020NL\\.nuget\\packages\\microsoft.maui.resizetizer\\10.0.51\\microsoft.maui.resizetizer.10.0.51.nupkg.sha512",
-    "C:\\Users\\HEW16A0020NL\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.5\\microsoft.net.illink.tasks.10.0.5.nupkg.sha512",
+    "C:\\Users\\HEW16A0020NL\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.6\\microsoft.net.illink.tasks.10.0.6.nupkg.sha512",
     "C:\\Users\\HEW16A0020NL\\.nuget\\packages\\microsoft.web.webview2\\1.0.3179.45\\microsoft.web.webview2.1.0.3179.45.nupkg.sha512",
     "C:\\Users\\HEW16A0020NL\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.26100.4654\\microsoft.windows.sdk.buildtools.10.0.26100.4654.nupkg.sha512",
     "C:\\Users\\HEW16A0020NL\\.nuget\\packages\\microsoft.windows.sdk.buildtools.msix\\1.7.20250829.1\\microsoft.windows.sdk.buildtools.msix.1.7.20250829.1.nupkg.sha512",

@@ -84,6 +84,7 @@ namespace GreenFit
                             utente.nome = nome;
                             utente.cognome = cognome;
                             utente.email = email;
+                            Sessione.utente = utente;
 
 
 

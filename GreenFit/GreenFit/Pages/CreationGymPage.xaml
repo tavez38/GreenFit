@@ -89,7 +89,7 @@
                         TextColor="Black"
                         Clicked="OpenPopUpClicked"/>
 
-                <Label x:Name="LblAttrezziScelti" Text="Nessun attrezzo selezionato" TextColor="Gray" />
+                <Label x:Name="LblAttrezziScelti" Text="Nessun attrezzo selezionato" TextColor="Gray" Padding="20" />
 
                 <Entry x:Name="GymCoordinateEntry" 
                 Placeholder="Coordinate geografiche (es. 41.9028, 12.4964)" 
