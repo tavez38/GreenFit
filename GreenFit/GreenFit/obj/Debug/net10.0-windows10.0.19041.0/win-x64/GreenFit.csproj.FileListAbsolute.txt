@@ -553,3 +553,9 @@ C:\GreenFit\GreenFit\GreenFit\obj\Debug\net10.0-windows10.0.19041.0\win-x64\pri.
 C:\GreenFit\GreenFit\GreenFit\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt
 C:\GreenFit\GreenFit\GreenFit\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
 C:\GreenFit\GreenFit\GreenFit\obj\Debug\net10.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
+C:\GreenFit\GreenFit\GreenFit\bin\Debug\net10.0-windows10.0.19041.0\win-x64\.env
+C:\GreenFit\GreenFit\GreenFit\bin\Debug\net10.0-windows10.0.19041.0\win-x64\CommunityToolkit.Maui.dll
+C:\GreenFit\GreenFit\GreenFit\bin\Debug\net10.0-windows10.0.19041.0\win-x64\CommunityToolkit.Maui.Core.dll
+C:\GreenFit\GreenFit\GreenFit\bin\Debug\net10.0-windows10.0.19041.0\win-x64\System.Speech.dll
+C:\GreenFit\GreenFit\GreenFit\obj\Debug\net10.0-windows10.0.19041.0\win-x64\CommunityToolkit.Maui.pri.xml
+C:\GreenFit\GreenFit\GreenFit\obj\Debug\net10.0-windows10.0.19041.0\win-x64\CommunityToolkit.Maui.Core.pri.xml

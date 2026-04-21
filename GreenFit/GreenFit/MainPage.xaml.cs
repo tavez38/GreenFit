@@ -1,4 +1,5 @@
 ﻿using GreenFit.Models;
+using GreenFit.Pages;
 using System.Text.Json;
 
 namespace GreenFit
@@ -89,7 +90,7 @@ namespace GreenFit
 
 
                             // Ora puoi andare alla mappa
-                            await Shell.Current.GoToAsync("MapPage");
+                            await Navigation.PushAsync(new NewPage1());
                         }
                         else
                         {
@@ -114,7 +115,8 @@ namespace GreenFit
         private async void OnGuestLoginTapped(object sender, EventArgs e)
         {
             Utente u = new Utente(false);
-            await Shell.Current.GoToAsync("MapPage");
+            Sessione.utente = u;
+            await Navigation.PushAsync(new NewPage1());
         }
 
 

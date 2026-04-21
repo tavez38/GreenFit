@@ -11,12 +11,13 @@ namespace GreenFit
             InitializeComponent();
            FileManager.CreateFileIfNotExists();
            FileManager.readFileText();
+           
         }
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
             //return new Window(new AppShell());
-            return new Window(new Pages.GymDeteailsPage());
+            return new Window(new Pages.ChatBotPage());
             
         }
     }

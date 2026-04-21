@@ -6,4 +6,8 @@ public partial class ChatBotPage : ContentPage
 	{
 		InitializeComponent();
 	}
+	private async void goBackToGymDetails(object sender, EventArgs e)
+	{
+		await Navigation.PopAsync();
+    }
 }

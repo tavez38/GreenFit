@@ -5,7 +5,6 @@
         public AppShell()
         {
             InitializeComponent();
-            Routing.RegisterRoute("MapPage", typeof(GreenFit.Pages.NewPage1));
         }
     }
 }

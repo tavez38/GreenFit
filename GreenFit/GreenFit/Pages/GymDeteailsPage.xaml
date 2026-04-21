@@ -39,8 +39,19 @@
                 <VerticalStackLayout Spacing="5">
                     <Label Text="Giulia B." FontAttributes="Bold" TextColor="#333333" />
                     <Label Text="Strutture nuove, ma purtroppo non c'è una fontanella d'acqua vicina. Portatevi la borraccia!" TextColor="#666666" />
+
+                    
+
                 </VerticalStackLayout>
             </Frame>
+
+            <Button Text="Crea il tuo allenamento" 
+    HorizontalOptions="EndAndExpand" 
+    BackgroundColor="#FF9F1C" 
+    TextColor="#1B4332" 
+    CornerRadius="20" 
+    HeightRequest="40"
+    Clicked="goToChatBot"/>
 
         </VerticalStackLayout>
     </ScrollView>
