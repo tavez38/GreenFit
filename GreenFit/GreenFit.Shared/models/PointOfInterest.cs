@@ -6,13 +6,13 @@ namespace GreenFit.Models
 {
     public class PointOfInterest
     {
-        public string id { get; set; }
+        public int id { get; set; }
         public double latitude { get; set; }
         public double longitude { get; set; }
         public string name { get; set; }
 
 
-        public PointOfInterest(string id, double latitude, double longitude, string name)
+        public PointOfInterest(int id, double latitude, double longitude, string name)
         {
             this.id = id;
             this.latitude = latitude;

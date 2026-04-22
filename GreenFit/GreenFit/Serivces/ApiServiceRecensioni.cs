@@ -8,18 +8,18 @@ namespace GreenFit.Serivces
 {
     internal class ApiServiceRecensioni
     {
-        private readonly HttpClient _httpClient;
+        private static readonly HttpClient _httpClient = new HttpClient();
 
         // URL base che punta al controller
         private const string BaseUrl = "https://tuo-tunnel-cloudflare.com/api/Recensioni";
 
         public ApiServiceRecensioni()
         {
-            _httpClient = new HttpClient();
+            
         }
 
         // 1. GET: Recupera tutte le recensioni di una specifica palestra
-        public async Task<List<Recensione>> GetRecensioniPalestraAsync(int palestraId)
+        public static async Task<List<Recensione>> GetRecensioniPalestraAsync(int palestraId)
         {
             try
             {

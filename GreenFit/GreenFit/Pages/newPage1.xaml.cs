@@ -44,6 +44,7 @@ public partial class NewPage1 : ContentPage
             {
                 Position = posizione,
                 Label = point.name,
+                Tag = point.id, // Puoi usare l'ID per identificare la palestra quando il pin viene cliccato
                 Type = PinType.Pin,
                 Color = Microsoft.Maui.Graphics.Color.FromArgb("#FF0000")
             };
@@ -53,7 +54,7 @@ public partial class NewPage1 : ContentPage
 
     public async Task caricaPOIMappa(){
         pointsMap = await ApiServiceGym.GetDatiGeograficiAsync();
-        pointsMap.Add(new PointOfInterest("1", 45.4642, 9.1900,"Porva")); //Test marker Milano
+        pointsMap.Add(new PointOfInterest(1, 45.4642, 9.1900,"Porva")); //Test marker Milano
     }
 
 	public void goToAddGymPage(object sender, EventArgs e)
@@ -93,11 +94,13 @@ public partial class NewPage1 : ContentPage
         }
     }
 
-    private void onClickPin(object sender, PinClickedEventArgs e)
+    private async void onClickPin(object sender, PinClickedEventArgs e)
     {
+        
         if (e.Pin == null) return;
 
-        Navigation.PushAsync(new GymDeteailsPage(e.Pin.Label, e.Pin.Position));
+        
+       await Navigation.PushAsync(new GymDeteailsPage(e.Pin.Label, e.Pin.Position,(int) e.Pin.Tag));
 
     }
 }
