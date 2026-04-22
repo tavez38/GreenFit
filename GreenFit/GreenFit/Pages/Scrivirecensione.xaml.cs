@@ -27,7 +27,7 @@ public partial class Scrivirecensione : ContentPage
         string descrizione = EditorDescrizione.Text;
         Valutazioni votoSelezionato = (Valutazioni)PickerVoto.SelectedItem;
 
-        //await ApiServiceRecensioni.InviaRecensioneAsync(new Recensione(titolo,descrizione,Sessione.sessione.email,idGym,votoSelezionato));
+        await ApiServiceRecensioni.InviaRecensioneAsync(new Recensione(titolo,descrizione,Sessione.sessione.email,idGym,votoSelezionato));
         await DisplayAlert("Recensione Inviata", "La tua recensione è stata inviata con successo!", "OK");
         Navigation.PopAsync();
     }

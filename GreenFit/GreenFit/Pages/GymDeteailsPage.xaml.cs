@@ -24,6 +24,7 @@ public partial class GymDeteailsPage : ContentPage
         recensioneList = await Serivces.ApiServiceRecensioni.GetRecensioniPalestraAsync(idGym);
         recensioneList.Add(new Recensione("Recensione di prova", "Questa è una recensione di prova per testare la visualizzazione.", "djwd", idGym, Valutazioni.BUONA)); //recensione di prova
         IntroRecensioni.Text = "Recensioni (" + recensioneList.Count + ")";
+        AggiornaStelleMedia();
         CaricaRecensioni();
     }
 
@@ -96,12 +97,46 @@ public partial class GymDeteailsPage : ContentPage
 
     private void addRecensione(object sender, EventArgs e)
     {
-       /* if(Sessione.sessione.isLoggedIn == false)
+        if(Sessione.sessione.isLoggedIn == false)
         {
             DisplayAlert("Attenzione", "Devi essere loggato per aggiungere una recensione!", "OK");
             return;
-        }*/
+        }
 
         Navigation.PushAsync(new Scrivirecensione(idGym));
+    }
+
+    private void AggiornaStelleMedia()
+    {
+        if (recensioneList == null || recensioneList.Count == 0)
+        {
+            MediaVotoLabel.Text = "Nessuna valutazione";
+            return;
+        }
+
+        // 1. Calcola la media numerica trasformando l'Enum in int
+        // Assumendo che il tuo Enum sia (es: PESSIMA=1, MEDIA=3, OTTIMA=5)
+        double somma = 0;
+        foreach (var rec in recensioneList)
+        {
+            somma += (int)rec.voto;
+        }
+
+        double media = somma / recensioneList.Count;
+        int mediaArrotondata = (int)Math.Round(media);
+
+        // 2. Aggiorna il testo della media
+        MediaVotoLabel.Text = $"{media:F1} / 5";
+
+        // 3. Colora le stelle
+        // StarLayout.Children contiene le 5 Label delle stelle + la Label del testo
+        for (int i = 0; i < 5; i++)
+        {
+            if (StarLayout.Children[i] is Label starLabel)
+            {
+                // Se l'indice è minore della media, colora di giallo (#FFD700), altrimenti grigio
+                starLabel.TextColor = (i < mediaArrotondata) ? Color.FromArgb("#FFD700") : Color.FromArgb("#CCCCCC");
+            }
+        }
     }
 }

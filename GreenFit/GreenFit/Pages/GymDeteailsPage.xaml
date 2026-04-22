@@ -38,6 +38,20 @@
                    FontAttributes="Bold" 
                    TextColor="#222222" />
 
+            <HorizontalStackLayout x:Name="StarLayout" Spacing="2" HorizontalOptions="Start">
+                <Label Text="★" FontSize="24" TextColor="#CCCCCC" />
+                <Label Text="★" FontSize="24" TextColor="#CCCCCC" />
+                <Label Text="★" FontSize="24" TextColor="#CCCCCC" />
+                <Label Text="★" FontSize="24" TextColor="#CCCCCC" />
+                <Label Text="★" FontSize="24" TextColor="#CCCCCC" />
+
+                <Label x:Name="MediaVotoLabel" 
+               VerticalOptions="Center" 
+               Margin="10,0,0,0" 
+               FontSize="16" 
+               TextColor="#666666" />
+            </HorizontalStackLayout>
+
             <VerticalStackLayout x:Name="ListaRecensioni" Spacing="10" Padding="20" />
 
             <Button Text="Crea il tuo allenamento" 
