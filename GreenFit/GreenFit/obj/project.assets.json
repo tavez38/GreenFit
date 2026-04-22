@@ -38788,24 +38788,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HEW16A0020NL\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GreenFit\\GreenFit\\GreenFit\\GreenFit.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\progetti\\GreenFit\\GreenFit\\GreenFit\\GreenFit.csproj",
       "projectName": "GreenFit",
-      "projectPath": "C:\\GreenFit\\GreenFit\\GreenFit\\GreenFit.csproj",
-      "packagesPath": "C:\\Users\\HEW16A0020NL\\.nuget\\packages\\",
-      "outputPath": "C:\\GreenFit\\GreenFit\\GreenFit\\obj\\",
+      "projectPath": "C:\\Users\\User\\Desktop\\progetti\\GreenFit\\GreenFit\\GreenFit\\GreenFit.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\progetti\\GreenFit\\GreenFit\\GreenFit\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\HEW16A0020NL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

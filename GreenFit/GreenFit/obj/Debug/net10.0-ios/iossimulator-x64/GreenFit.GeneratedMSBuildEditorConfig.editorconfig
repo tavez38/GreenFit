@@ -21,13 +21,13 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GreenFit
-build_property.ProjectDir = C:\GreenFit\GreenFit\GreenFit\
+build_property.ProjectDir = C:\Users\User\Desktop\progetti\GreenFit\GreenFit\GreenFit\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/GreenFit/GreenFit/GreenFit/App.xaml]
+[C:/Users/User/Desktop/progetti/GreenFit/GreenFit/GreenFit/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
@@ -37,7 +37,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/GreenFit/GreenFit/GreenFit/AppShell.xaml]
+[C:/Users/User/Desktop/progetti/GreenFit/GreenFit/GreenFit/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
@@ -47,7 +47,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/GreenFit/GreenFit/GreenFit/MainPage.xaml]
+[C:/Users/User/Desktop/progetti/GreenFit/GreenFit/GreenFit/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
@@ -57,7 +57,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/GreenFit/GreenFit/GreenFit/Pages/ChatBotPage.xaml]
+[C:/Users/User/Desktop/progetti/GreenFit/GreenFit/GreenFit/Pages/ChatBotPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.Pages.ChatBotPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\ChatBotPage.xaml
@@ -67,7 +67,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/GreenFit/GreenFit/GreenFit/Pages/CreationGymPage.xaml]
+[C:/Users/User/Desktop/progetti/GreenFit/GreenFit/GreenFit/Pages/CreationGymPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.Pages.CreationGymPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\CreationGymPage.xaml
@@ -77,7 +77,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/GreenFit/GreenFit/GreenFit/Pages/GymDeteailsPage.xaml]
+[C:/Users/User/Desktop/progetti/GreenFit/GreenFit/GreenFit/Pages/GymDeteailsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.Pages.GymDeteailsPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\GymDeteailsPage.xaml
@@ -87,7 +87,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/GreenFit/GreenFit/GreenFit/Pages/NewPage1.xaml]
+[C:/Users/User/Desktop/progetti/GreenFit/GreenFit/GreenFit/Pages/NewPage1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.Pages.NewPage1.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\NewPage1.xaml
@@ -97,7 +97,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/GreenFit/GreenFit/GreenFit/Pages/PopUpAttrezzi.xaml]
+[C:/Users/User/Desktop/progetti/GreenFit/GreenFit/GreenFit/Pages/PopUpAttrezzi.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.Pages.PopUpAttrezzi.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\PopUpAttrezzi.xaml
@@ -107,7 +107,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/GreenFit/GreenFit/GreenFit/Pages/ReviewPage.xaml]
+[C:/Users/User/Desktop/progetti/GreenFit/GreenFit/GreenFit/Pages/ReviewPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.Pages.ReviewPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Pages\ReviewPage.xaml
@@ -117,7 +117,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/GreenFit/GreenFit/GreenFit/Resources/Styles/Colors.xaml]
+[C:/Users/User/Desktop/progetti/GreenFit/GreenFit/GreenFit/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
@@ -127,7 +127,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/GreenFit/GreenFit/GreenFit/Resources/Styles/Styles.xaml]
+[C:/Users/User/Desktop/progetti/GreenFit/GreenFit/GreenFit/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
