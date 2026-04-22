@@ -1,6 +1,6 @@
 using CommunityToolkit.Maui.Views;
 using GreenFit.Models;
-
+using GreenFit.Shared.Models;
 namespace GreenFit.Pages;
 
 public partial class PopUpAttrezzi : Popup

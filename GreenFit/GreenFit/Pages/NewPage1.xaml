@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mapsui="clr-namespace:Mapsui.UI.Maui;assembly=Mapsui.UI.Maui"
              x:Class="GreenFit.Pages.NewPage1"
              Title="MapPage"
              BackgroundColor="#F5F7F8"
@@ -8,9 +9,9 @@
 
     <Grid RowDefinitions="*, Auto">
 
-        <WebView x:Name="MapWebView" 
-                Grid.Row="0" 
-                  />
+        <mapsui:MapView x:Name="mappaView" 
+                    VerticalOptions="FillAndExpand" 
+                    HorizontalOptions="FillAndExpand" />
 
         <StackLayout Grid.Row="1" 
                      BackgroundColor="#4CAF50" 

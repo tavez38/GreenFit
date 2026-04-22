@@ -16,8 +16,8 @@ namespace GreenFit
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            //return new Window(new AppShell());
-            return new Window(new Pages.ChatBotPage());
+            return new Window(new AppShell());
+            //return new Window(new Pages.ChatBotPage());
             
         }
     }

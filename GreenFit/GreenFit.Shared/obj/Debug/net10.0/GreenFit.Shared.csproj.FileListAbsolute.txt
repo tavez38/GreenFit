@@ -1,0 +1,12 @@
+C:\GreenFit\GreenFit\GreenFit.Shared\bin\Debug\net10.0\GreenFit.Shared.deps.json
+C:\GreenFit\GreenFit\GreenFit.Shared\bin\Debug\net10.0\GreenFit.Shared.dll
+C:\GreenFit\GreenFit\GreenFit.Shared\bin\Debug\net10.0\GreenFit.Shared.pdb
+C:\GreenFit\GreenFit\GreenFit.Shared\obj\Debug\net10.0\GreenFit.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\GreenFit\GreenFit\GreenFit.Shared\obj\Debug\net10.0\GreenFit.Shared.AssemblyInfoInputs.cache
+C:\GreenFit\GreenFit\GreenFit.Shared\obj\Debug\net10.0\GreenFit.Shared.AssemblyInfo.cs
+C:\GreenFit\GreenFit\GreenFit.Shared\obj\Debug\net10.0\GreenFit.Shared.csproj.CoreCompileInputs.cache
+C:\GreenFit\GreenFit\GreenFit.Shared\obj\Debug\net10.0\GreenFit.Shared.sourcelink.json
+C:\GreenFit\GreenFit\GreenFit.Shared\obj\Debug\net10.0\GreenFit.Shared.dll
+C:\GreenFit\GreenFit\GreenFit.Shared\obj\Debug\net10.0\refint\GreenFit.Shared.dll
+C:\GreenFit\GreenFit\GreenFit.Shared\obj\Debug\net10.0\GreenFit.Shared.pdb
+C:\GreenFit\GreenFit\GreenFit.Shared\obj\Debug\net10.0\ref\GreenFit.Shared.dll

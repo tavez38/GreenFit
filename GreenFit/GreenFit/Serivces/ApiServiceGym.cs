@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Net.Http.Json;
 using System.Text;
+using GreenFit.Models;
 using GreenFit.Shared.Models;
 
 namespace GreenFit.Serivces
@@ -9,29 +10,29 @@ namespace GreenFit.Serivces
 
     public class ApiServiceGym
     {
-        private readonly HttpClient _httpClient;
+        private static readonly HttpClient _httpClient = new HttpClient();
 
         // Sostituisci con l'indirizzo reale del tuo Cloudflare Tunnel
         private const string BaseUrl = "https://tuo-tunnel-cloudflare.com/api/Gym";
 
         public ApiServiceGym()
         {
-            _httpClient = new HttpClient();
+            
         }
 
-        // 1. GET Geografia (Prende solo lat e long)
-        public async Task<List<Gym>> GetDatiGeograficiAsync()
+        // 1. GET Geografia (Prende solo lat e long e id)
+        public static async Task<List<PointOfInterest>> GetDatiGeograficiAsync()
         {
             try
             {
                 // Chiama api/Gym/geografia
-                var response = await _httpClient.GetFromJsonAsync<List<Gym>>($"{BaseUrl}/geografia");
-                return response ?? new List<Gym>();
+                var response = await _httpClient.GetFromJsonAsync<List<PointOfInterest>>($"{BaseUrl}/geografia");
+                return response ?? new List<PointOfInterest>();
             }
             catch (Exception ex)
             {
                 Console.WriteLine($"Errore Geografia: {ex.Message}");
-                return new List<Gym>();
+                return new List<PointOfInterest>();
             }
         }
 

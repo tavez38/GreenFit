@@ -3507,23 +3507,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\HEW16A0020NL\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\progetti\\GreenFit-main\\GreenFit\\GreenFit.Api\\GreenFit.Api.csproj",
+      "projectUniqueName": "C:\\GreenFit\\GreenFit\\GreenFit.Api\\GreenFit.Api.csproj",
       "projectName": "GreenFit.Api",
-      "projectPath": "C:\\Users\\User\\Desktop\\progetti\\GreenFit-main\\GreenFit\\GreenFit.Api\\GreenFit.Api.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\progetti\\GreenFit-main\\GreenFit\\GreenFit.Api\\obj\\",
+      "projectPath": "C:\\GreenFit\\GreenFit\\GreenFit.Api\\GreenFit.Api.csproj",
+      "packagesPath": "C:\\Users\\HEW16A0020NL\\.nuget\\packages\\",
+      "outputPath": "C:\\GreenFit\\GreenFit\\GreenFit.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\HEW16A0020NL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3540,8 +3540,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\User\\Desktop\\progetti\\GreenFit-main\\GreenFit\\GreenFit.Shared\\GreenFit.Shared.csproj": {
-              "projectPath": "C:\\Users\\User\\Desktop\\progetti\\GreenFit-main\\GreenFit\\GreenFit.Shared\\GreenFit.Shared.csproj"
+            "C:\\GreenFit\\GreenFit\\GreenFit.Shared\\GreenFit.Shared.csproj": {
+              "projectPath": "C:\\GreenFit\\GreenFit\\GreenFit.Shared\\GreenFit.Shared.csproj"
             }
           }
         }

@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="GreenFit.Api/GreenFit.Api.csproj" />
+  <Project Path="GreenFit.Shared/GreenFit.Shared.csproj" />
   <Project Path="GreenFit/GreenFit.csproj" />
 </Solution>

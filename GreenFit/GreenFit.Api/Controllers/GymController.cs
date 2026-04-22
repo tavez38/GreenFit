@@ -23,7 +23,8 @@ namespace GreenFit.Api.Controllers
                 {
                     g.Id,
                     g.latitude,
-                    g.longitude
+                    g.longitude,
+                    g.name
                 })
                 .ToListAsync();
 

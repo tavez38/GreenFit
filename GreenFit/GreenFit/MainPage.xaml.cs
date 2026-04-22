@@ -1,6 +1,7 @@
-﻿using GreenFit.Models;
+﻿using GreenFit.Shared.Models;
 using GreenFit.Pages;
 using System.Text.Json;
+using GreenFit.Serivces;
 
 namespace GreenFit
 {
@@ -85,7 +86,7 @@ namespace GreenFit
                             utente.nome = nome;
                             utente.cognome = cognome;
                             utente.email = email;
-                            Sessione.utente = utente;
+                            Sessione.sessione = utente;
 
 
 
@@ -115,7 +116,7 @@ namespace GreenFit
         private async void OnGuestLoginTapped(object sender, EventArgs e)
         {
             Utente u = new Utente(false);
-            Sessione.utente = u;
+            Sessione.sessione = u;
             await Navigation.PushAsync(new NewPage1());
         }
 

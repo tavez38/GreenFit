@@ -1,5 +1,6 @@
-﻿using Microsoft.Extensions.Logging;
-using CommunityToolkit.Maui; // Necessario per il toolkit
+﻿using CommunityToolkit.Maui; // Necessario per il toolkit
+using Microsoft.Extensions.Logging;
+using SkiaSharp.Views.Maui.Controls.Hosting;
 
 namespace GreenFit
 {
@@ -11,6 +12,8 @@ namespace GreenFit
             builder
                 .UseMauiApp<App>()
                 .UseMauiCommunityToolkit()
+                .UseSkiaSharp()
+                
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

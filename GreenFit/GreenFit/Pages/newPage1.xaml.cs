@@ -1,15 +1,90 @@
+using GreenFit.Models;
+using GreenFit.Serivces;
+using Mapsui.Projections;
+using Mapsui.UI.Maui;
+
 namespace GreenFit.Pages;
 
 public partial class NewPage1 : ContentPage
 {
-	public NewPage1()
-	{
-		InitializeComponent();
-		MapWebView.Source = GreenFit.Serivces.FileManager.envVariables.GetValueOrDefault("URL_MAP");
+	private List<PointOfInterest> pointsMap;   
+
+    public NewPage1()
+    {
+        InitializeComponent();
+
+        // Crea l'oggetto mappa
+        var map = new Mapsui.Map();
+
+        // Aggiunge il layer di OpenStreetMap (il layer di base)
+        map.Layers.Add(Mapsui.Tiling.OpenStreetMap.CreateTileLayer());
+
+        // Assegna la mappa al controllo XAML
+        mappaView.Map = map;
+
+        OnPageLoaded();
+      AttivaPosizioneRealTime();
+
+    }
+
+    private void OnPageLoaded()
+    {
+        if(pointsMap==null){
+                return;
+        }
+        foreach (var point in pointsMap)
+        {
+            // Aggiungi un marker per ogni punto di interesse
+            var posizione = new Position(point.latitude, point.longitude);
+            var pin = new Pin(mappaView)
+            {
+                Position = posizione,
+                Label = point.name,
+                Type = PinType.Pin,
+                Color = Microsoft.Maui.Graphics.Color.FromArgb("#FF0000")
+            };
+            mappaView.Pins.Add(pin);
+        }
+    }
+
+    public async void caricaPOIMappa(){
+        pointsMap = await ApiServiceGym.GetDatiGeograficiAsync();
     }
 
 	public void goToAddGymPage(object sender, EventArgs e)
 	{
 		Navigation.PushAsync(new CreationGymPage());
+    }
+
+    private async Task AttivaPosizioneRealTime()
+    {
+        try
+        {
+            var request = new GeolocationRequest(GeolocationAccuracy.Medium, TimeSpan.FromSeconds(10));
+            var location = await Geolocation.Default.GetLocationAsync(request);
+
+            if (location != null)
+            {
+                // 1. TRASFORMA LA POSIZIONE PER IL LAYER NATIVO
+                // Nota: MyLocationLayer usa Mapsui.UI.Maui.Position
+                var myPos = new Mapsui.UI.Maui.Position(location.Latitude, location.Longitude);
+
+                // 2. AGGIORNA IL MARKER NATIVO (il pallino blu si sposterà qui)
+                mappaView.MyLocationLayer.UpdateMyLocation(myPos);
+
+                // 3. CENTRA LA MAPPA (solita conversione per il Navigator)
+                // In alcune versioni di Mapsui FromLonLat restituisce una ValueTuple<double,double>.
+                // Deconstruire e creare esplicitamente un Mapsui.MPoint per evitare l'errore CS1503.
+                var (x, y) = Mapsui.Projections.SphericalMercator.FromLonLat(location.Longitude, location.Latitude);
+                var mercatorPoint = new Mapsui.MPoint(x, y);
+
+                mappaView.Map.Navigator.CenterOn(mercatorPoint);
+                mappaView.Map.Navigator.ZoomToLevel(15);
+            }
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlert("Errore", "Impossibile aggiornare posizione nativa: " + ex.Message, "OK");
+        }
     }
 }

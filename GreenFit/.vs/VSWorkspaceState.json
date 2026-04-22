@@ -1,6 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\GreenFit",
+    "\\GreenFit.Api",
+    "\\GreenFit.Api\\Controllers",
+    "\\GreenFit.Shared",
+    "\\GreenFit.Shared\\bin",
+    "\\GreenFit.Shared\\models",
+    "\\GreenFit\\Serivces"
   ],
   "SelectedNode": "\\GreenFit.slnx",
   "PreviewInSolutionExplorer": false
