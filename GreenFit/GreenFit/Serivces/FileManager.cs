@@ -13,9 +13,7 @@ namespace GreenFit.Serivces
 
         private const string envConfigText = "GOOGLE_CLIENT_ID=23526714735-0m5vfobvk91suses2cq2lf1k3pvqfl1a.apps.googleusercontent.com\r\n" +
         "GOOGLE_REDIRECT_URI=com.googleusercontent.apps.23526714735-0m5vfobvk91suses2cq2lf1k3pvqfl1a:/oauth2redirect\r\n" +
-        "URL_MAP=https://www.openstreetmap.org/export/embed.html?bbox=8.9,45.4,9.3,45.6&amp;layer=mapnik\r\n" +
-        "CONNECTION_STRING_DATABASE=\r\n" +
-        "CONNECTION_STRING_OLLAMA=";
+        "URL_MAP=https://www.openstreetmap.org/export/embed.html?bbox=8.9,45.4,9.3,45.6&amp;layer=mapnik\r\n";
 
         public static Dictionary<string, string> envVariables { get; set; } = new Dictionary<string, string>();
 
