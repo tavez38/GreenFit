@@ -12,14 +12,17 @@
                    HeightRequest="220" 
                    Aspect="AspectFill" />
 
-            <Label Text="Parco Sempione Calisthenics" 
+            <Label x:Name="gymNameLabel" 
                    FontSize="24" 
                    FontAttributes="Bold" 
                    TextColor="#222222" />
 
-            <Label Text="Una bellissima area attrezzata con sbarre per trazioni, parallele e anelli per il corpo libero. Aperta 24h." 
-                   FontSize="16" 
-                   TextColor="#555555" />
+            <Button Text="Portami là"
+                BackgroundColor="#FF9F1C" 
+                TextColor="#1B4332" 
+                CornerRadius="20" 
+                HeightRequest="40"
+                Clicked="openMaps"/>
 
             <BoxView HeightRequest="1" Color="#DDDDDD" Margin="0,10,0,10" />
 
@@ -46,12 +49,12 @@
             </Frame>
 
             <Button Text="Crea il tuo allenamento" 
-    HorizontalOptions="EndAndExpand" 
-    BackgroundColor="#FF9F1C" 
-    TextColor="#1B4332" 
-    CornerRadius="20" 
-    HeightRequest="40"
-    Clicked="goToChatBot"/>
+                HorizontalOptions="EndAndExpand" 
+                BackgroundColor="#FF9F1C" 
+                TextColor="#1B4332" 
+                CornerRadius="20" 
+                HeightRequest="40"
+                Clicked="goToChatBot"/>
 
         </VerticalStackLayout>
     </ScrollView>

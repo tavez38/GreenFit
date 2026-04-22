@@ -26,6 +26,8 @@ public partial class NewPage1 : ContentPage
 
         AttivaPosizioneRealTime();
 
+        mappaView.PinClicked += onClickPin;
+
     }
 
     private async Task OnPageLoaded()
@@ -89,5 +91,13 @@ public partial class NewPage1 : ContentPage
         {
             await DisplayAlert("Errore", "Impossibile aggiornare posizione nativa: " + ex.Message, "OK");
         }
+    }
+
+    private void onClickPin(object sender, PinClickedEventArgs e)
+    {
+        if (e.Pin == null) return;
+
+        Navigation.PushAsync(new GymDeteailsPage(e.Pin.Label, e.Pin.Position));
+
     }
 }
