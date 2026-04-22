@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\GreenFit\\GreenFit\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|c:\\greenfit\\greenfit\\greenfit\\pages\\scrivirecensione.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|solutionrelative:greenfit\\pages\\scrivirecensione.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|c:\\greenfit\\greenfit\\greenfit\\pages\\gymdeteailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|solutionrelative:greenfit\\pages\\gymdeteailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|c:\\greenfit\\greenfit\\greenfit\\pages\\scrivirecensione.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|solutionrelative:greenfit\\pages\\scrivirecensione.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|c:\\greenfit\\greenfit\\greenfit\\pages\\creationgympage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|solutionrelative:greenfit\\pages\\creationgympage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|c:\\greenfit\\greenfit\\greenfit\\serivces\\apiservicegym.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|solutionrelative:greenfit\\serivces\\apiservicegym.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{069D08FD-1BA5-4122-BD53-8A201278C3E7}|GreenFit.Shared\\GreenFit.Shared.csproj|c:\\greenfit\\greenfit\\greenfit.shared\\models\\recensione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{069D08FD-1BA5-4122-BD53-8A201278C3E7}|GreenFit.Shared\\GreenFit.Shared.csproj|solutionrelative:greenfit.shared\\models\\recensione.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|c:\\greenfit\\greenfit\\greenfit\\pages\\creationgympage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|solutionrelative:greenfit\\pages\\creationgympage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{069D08FD-1BA5-4122-BD53-8A201278C3E7}|GreenFit.Shared\\GreenFit.Shared.csproj|c:\\greenfit\\greenfit\\greenfit.shared\\models\\gym.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{069D08FD-1BA5-4122-BD53-8A201278C3E7}|GreenFit.Shared\\GreenFit.Shared.csproj|solutionrelative:greenfit.shared\\models\\gym.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|c:\\greenfit\\greenfit\\greenfit\\serivces\\apiservicerecensioni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|solutionrelative:greenfit\\serivces\\apiservicerecensioni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,53 +43,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Gym.cs",
-              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit.Shared\\models\\Gym.cs",
-              "RelativeDocumentMoniker": "GreenFit.Shared\\models\\Gym.cs",
-              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit.Shared\\models\\Gym.cs",
-              "RelativeToolTip": "GreenFit.Shared\\models\\Gym.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T16:09:10.417Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreationGymPage.xaml",
-              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\CreationGymPage.xaml",
-              "RelativeDocumentMoniker": "GreenFit\\Pages\\CreationGymPage.xaml",
-              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\CreationGymPage.xaml",
-              "RelativeToolTip": "GreenFit\\Pages\\CreationGymPage.xaml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-22T16:07:58.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "creationGymPage.xaml.cs",
               "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\creationGymPage.xaml.cs",
               "RelativeDocumentMoniker": "GreenFit\\Pages\\creationGymPage.xaml.cs",
               "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\creationGymPage.xaml.cs",
               "RelativeToolTip": "GreenFit\\Pages\\creationGymPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwCMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T16:07:56.968Z",
+              "WhenOpened": "2026-04-22T16:33:22.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiServiceRecensioni.cs",
+              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit\\Serivces\\ApiServiceRecensioni.cs",
+              "RelativeDocumentMoniker": "GreenFit\\Serivces\\ApiServiceRecensioni.cs",
+              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit\\Serivces\\ApiServiceRecensioni.cs",
+              "RelativeToolTip": "GreenFit\\Serivces\\ApiServiceRecensioni.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T16:29:15.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Scrivirecensione.xaml",
+              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\Scrivirecensione.xaml",
+              "RelativeDocumentMoniker": "GreenFit\\Pages\\Scrivirecensione.xaml",
+              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\Scrivirecensione.xaml",
+              "RelativeToolTip": "GreenFit\\Pages\\Scrivirecensione.xaml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowBoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-22T16:24:00.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Scrivirecensione.xaml.cs",
+              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\Scrivirecensione.xaml.cs",
+              "RelativeDocumentMoniker": "GreenFit\\Pages\\Scrivirecensione.xaml.cs",
+              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\Scrivirecensione.xaml.cs",
+              "RelativeToolTip": "GreenFit\\Pages\\Scrivirecensione.xaml.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwB8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T16:24:19.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Recensione.cs",
+              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit.Shared\\models\\Recensione.cs",
+              "RelativeDocumentMoniker": "GreenFit.Shared\\models\\Recensione.cs",
+              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit.Shared\\models\\Recensione.cs",
+              "RelativeToolTip": "GreenFit.Shared\\models\\Recensione.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T16:19:59.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApiServiceGym.cs",
-              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit\\Serivces\\ApiServiceGym.cs",
-              "RelativeDocumentMoniker": "GreenFit\\Serivces\\ApiServiceGym.cs",
-              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit\\Serivces\\ApiServiceGym.cs",
-              "RelativeToolTip": "GreenFit\\Serivces\\ApiServiceGym.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDcAAAAWAAAAAAAAAA==",
+              "Title": "GymDeteailsPage.xaml.cs",
+              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\GymDeteailsPage.xaml.cs",
+              "RelativeDocumentMoniker": "GreenFit\\Pages\\GymDeteailsPage.xaml.cs",
+              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\GymDeteailsPage.xaml.cs",
+              "RelativeToolTip": "GreenFit\\Pages\\GymDeteailsPage.xaml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAxwGYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-22T16:07:02.89Z",
+              "WhenOpened": "2026-04-22T16:21:19.042Z",
               "EditorCaption": ""
             }
           ]

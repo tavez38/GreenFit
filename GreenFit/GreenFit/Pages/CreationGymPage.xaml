@@ -68,19 +68,11 @@
                 </Grid>
 
                 <Entry x:Name="GymNameEntry" 
-                Placeholder="Nome della palestra" 
+                       Placeholder="Nome della palestra" 
                        WidthRequest="300" 
                        HorizontalOptions="Center" 
                        TextColor="Black"
                        />
-
-                <Editor x:Name="GymDescEntry" 
-                Placeholder="Descrizione della palestra" 
-                        WidthRequest="300" 
-                        HeightRequest="110" 
-                        AutoSize="TextChanges"
-                        HorizontalOptions="Center"
-                        TextColor="Black"/>
 
                 <Button Text="+ aggiungi attrezzi" 
                         HorizontalOptions="Start" 

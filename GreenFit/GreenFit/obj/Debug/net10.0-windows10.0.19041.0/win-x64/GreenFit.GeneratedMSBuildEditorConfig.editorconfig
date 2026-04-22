@@ -119,6 +119,16 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
+[C:/GreenFit/GreenFit/GreenFit/Pages/Scrivirecensione.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.Pages.Scrivirecensione.xaml
+build_metadata.AdditionalFiles.TargetPath = Pages\Scrivirecensione.xaml
+build_metadata.AdditionalFiles.RelativePath = Pages\Scrivirecensione.xaml
+build_metadata.AdditionalFiles.Inflator = SourceGen
+build_metadata.AdditionalFiles.NoWarn = 
+build_metadata.AdditionalFiles.EnableDiagnostics = 
+build_metadata.AdditionalFiles.LineInfo = 
+
 [C:/GreenFit/GreenFit/GreenFit/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = GreenFit.Resources.Styles.Colors.xaml

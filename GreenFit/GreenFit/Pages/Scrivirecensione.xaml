@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GreenFit.Pages.Scrivirecensione"
+             Title="Scrivirecensione">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <Label Text="Com'è stata la tua esperienza?"
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="#333333" />
+
+            <VerticalStackLayout Spacing="5">
+                <Label Text="Titolo" FontAttributes="Bold" />
+                <Frame Padding="0" HasShadow="False" BorderColor="#CCCCCC" CornerRadius="8">
+                    <Entry x:Name="EntryTitolo" 
+                           Placeholder="Riassumi la tua esperienza..." 
+                           Margin="10,0" />
+                </Frame>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Spacing="5">
+                <Label Text="Valutazione" FontAttributes="Bold" />
+                <Frame Padding="0" HasShadow="False" BorderColor="#CCCCCC" CornerRadius="8">
+                    <Picker x:Name="PickerVoto" 
+                            Title="Seleziona un voto" 
+                            Margin="10,0" />
+                </Frame>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout Spacing="5">
+                <Label Text="La tua recensione" FontAttributes="Bold" />
+                <Frame Padding="0" HasShadow="False" BorderColor="#CCCCCC" CornerRadius="8">
+                    <Editor x:Name="EditorDescrizione" 
+                            Placeholder="Scrivi qui i dettagli (attrezzatura, pulizia, staff...)" 
+                            HeightRequest="150" 
+                            Margin="10" />
+                </Frame>
+            </VerticalStackLayout>
+
+            <Button Text="Pubblica Recensione"
+                    Clicked="OnInviaRecensioneClicked"
+                    BackgroundColor="#2196F3"
+                    TextColor="White"
+                    CornerRadius="25"
+                    HeightRequest="50"
+                    FontAttributes="Bold"
+                    Margin="0,20,0,0" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

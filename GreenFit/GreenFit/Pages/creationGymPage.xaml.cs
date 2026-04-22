@@ -20,7 +20,6 @@ public partial class CreationGymPage : ContentPage
     public async void addGym(object sender, EventArgs e)
     {
         string name = GymNameEntry.Text;
-        string description = GymDescEntry.Text;
         string coordinate = GymCoordinateEntry.Text;
         string latitude = coordinate.Split(',')[0].Trim();
         string longitude = coordinate.Split(',')[1].Trim();
@@ -29,12 +28,12 @@ public partial class CreationGymPage : ContentPage
         await ApiServiceGym.CreaPalestraAsync(gym);
 
 
-        await DisplayAlert("Palestra Aggiunta", $"Nome: {name}\nDescrizione: {description}\n", "OK");
+        await DisplayAlert("Palestra Aggiunta", $"Nome: {name}\nDescrizione:\n", "OK");
         
     }
     public void resetAddGym(object sender, EventArgs e){
         GymNameEntry.Text = string.Empty;
-        GymDescEntry.Text = string.Empty;
+        
         GymCoordinateEntry.Text = string.Empty;
         ImgAnteprima.Source = null;
         ImgAnteprima.IsVisible = false;

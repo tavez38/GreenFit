@@ -1,4 +1,5 @@
 using GreenFit.Models;
+using GreenFit.Serivces;
 using GreenFit.Shared.Models;
 using Mapsui.UI.Maui;
 
@@ -91,5 +92,16 @@ public partial class GymDeteailsPage : ContentPage
             // 5. Inserimento nel documento XAML
             ListaRecensioni.Children.Add(frame);
         }
+    }
+
+    private void addRecensione(object sender, EventArgs e)
+    {
+       /* if(Sessione.sessione.isLoggedIn == false)
+        {
+            DisplayAlert("Attenzione", "Devi essere loggato per aggiungere una recensione!", "OK");
+            return;
+        }*/
+
+        Navigation.PushAsync(new Scrivirecensione(idGym));
     }
 }

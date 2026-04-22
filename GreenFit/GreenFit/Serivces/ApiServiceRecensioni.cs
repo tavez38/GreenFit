@@ -36,7 +36,7 @@ namespace GreenFit.Serivces
         }
 
         // 2. POST: Invia una nuova recensione al database
-        public async Task<bool> InviaRecensioneAsync(Recensione nuova)
+        public static async Task<bool> InviaRecensioneAsync(Recensione nuova)
         {
             try
             {

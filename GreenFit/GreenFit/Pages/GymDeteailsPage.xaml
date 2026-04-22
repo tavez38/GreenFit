@@ -23,6 +23,13 @@
                 CornerRadius="20" 
                 HeightRequest="40"
                 Clicked="openMaps"/>
+            
+            <Button Text="Aggiungi recensione"
+                BackgroundColor="#FF9F1C" 
+                TextColor="#1B4332" 
+                CornerRadius="20" 
+                HeightRequest="40"
+                Clicked="addRecensione"/>
 
             <BoxView HeightRequest="1" Color="#DDDDDD" Margin="0,10,0,10" />
 
