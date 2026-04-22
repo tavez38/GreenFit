@@ -1,5 +1,7 @@
 using CommunityToolkit.Maui.Extensions;
 using GreenFit.Models;
+using GreenFit.Serivces;
+using GreenFit.Shared.Models;
 
 namespace GreenFit.Pages;
 
@@ -15,16 +17,20 @@ public partial class CreationGymPage : ContentPage
     {
         Navigation.PopAsync();
     }
-    public void addGym(object sender, EventArgs e)
+    public async void addGym(object sender, EventArgs e)
     {
         string name = GymNameEntry.Text;
         string description = GymDescEntry.Text;
         string coordinate = GymCoordinateEntry.Text;
         string latitude = coordinate.Split(',')[0].Trim();
         string longitude = coordinate.Split(',')[1].Trim();
+        string[] attrezzi = LblAttrezziScelti.Text.Split(',').Select(a => a.Trim()).ToArray();
+        Gym gym = new Gym(name, latitude, longitude, attrezzi);
+        await ApiServiceGym.CreaPalestraAsync(gym);
 
-        DisplayAlert("Palestra Aggiunta", $"Nome: {name}\nDescrizione: {description}\n", "OK");
-        //TODO implementare invio dati al db
+
+        await DisplayAlert("Palestra Aggiunta", $"Nome: {name}\nDescrizione: {description}\n", "OK");
+        
     }
     public void resetAddGym(object sender, EventArgs e){
         GymNameEntry.Text = string.Empty;

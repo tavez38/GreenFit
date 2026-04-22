@@ -11,16 +11,17 @@ namespace GreenFit.Shared.Models
         public string name { get; set; }
         public  string latitude { get; set; }
         public string longitude { get; set; }
-        public String[] attrezzi { get; set; } = new string[0];
+        public string[] attrezzi { get; set; } = new string[0];
 
         public String[] immagini { get; set; } = new String[0];
 
-        public Gym(int id, string name, string latitude, string longitude)
+        public Gym(string name, string latitude, string longitude, string[] attrezzi)
         {
-            Id = id;
+            
             this.name = name;
             this.latitude = latitude;
             this.longitude = longitude;
+            this.attrezzi = attrezzi;
         }
 
         public Gym() { }

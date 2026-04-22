@@ -33,23 +33,6 @@
 
             <VerticalStackLayout x:Name="ListaRecensioni" Spacing="10" Padding="20" />
 
-            <!--<Frame BackgroundColor="White" CornerRadius="8" Padding="15" HasShadow="True" BorderColor="Transparent">
-                <VerticalStackLayout Spacing="5">
-                    <Label Text="Marco Rossi" FontAttributes="Bold" TextColor="#333333" />
-                    <Label Text="Ottima palestra, molto frequentata la sera. Le sbarre hanno un buon grip." TextColor="#666666" />
-                </VerticalStackLayout>
-            </Frame>
-
-            <Frame BackgroundColor="White" CornerRadius="8" Padding="15" HasShadow="True" BorderColor="Transparent">
-                <VerticalStackLayout Spacing="5">
-                    <Label Text="Giulia B." FontAttributes="Bold" TextColor="#333333" />
-                    <Label Text="Strutture nuove, ma purtroppo non c'è una fontanella d'acqua vicina. Portatevi la borraccia!" TextColor="#666666" />
-
-                    
-
-                </VerticalStackLayout>
-            </Frame>-->
-
             <Button Text="Crea il tuo allenamento" 
                 HorizontalOptions="EndAndExpand" 
                 BackgroundColor="#FF9F1C" 

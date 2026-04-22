@@ -53,7 +53,7 @@ namespace GreenFit.Serivces
         }
 
         // 3. POST Crea Palestra (Invia l'oggetto intero al DB)
-        public async Task<bool> CreaPalestraAsync(Gym nuovaPalestra)
+        public static async Task<bool> CreaPalestraAsync(Gym nuovaPalestra)
         {
             try
             {
