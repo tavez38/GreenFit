@@ -23,13 +23,15 @@ public partial class NewPage1 : ContentPage
         mappaView.Map = map;
 
         OnPageLoaded();
-      AttivaPosizioneRealTime();
+
+        AttivaPosizioneRealTime();
 
     }
 
-    private void OnPageLoaded()
+    private async Task OnPageLoaded()
     {
-        if(pointsMap==null){
+        await caricaPOIMappa();
+        if (pointsMap==null){
                 return;
         }
         foreach (var point in pointsMap)
@@ -47,8 +49,9 @@ public partial class NewPage1 : ContentPage
         }
     }
 
-    public async void caricaPOIMappa(){
+    public async Task caricaPOIMappa(){
         pointsMap = await ApiServiceGym.GetDatiGeograficiAsync();
+        pointsMap.Add(new PointOfInterest("1", 45.4642, 9.1900,"Porva")); //Test marker Milano
     }
 
 	public void goToAddGymPage(object sender, EventArgs e)
