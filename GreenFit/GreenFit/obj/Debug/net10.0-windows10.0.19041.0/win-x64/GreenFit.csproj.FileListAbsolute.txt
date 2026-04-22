@@ -559,3 +559,13 @@ C:\GreenFit\GreenFit\GreenFit\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Comm
 C:\GreenFit\GreenFit\GreenFit\bin\Debug\net10.0-windows10.0.19041.0\win-x64\System.Speech.dll
 C:\GreenFit\GreenFit\GreenFit\obj\Debug\net10.0-windows10.0.19041.0\win-x64\CommunityToolkit.Maui.pri.xml
 C:\GreenFit\GreenFit\GreenFit\obj\Debug\net10.0-windows10.0.19041.0\win-x64\CommunityToolkit.Maui.Core.pri.xml
+C:\GreenFit\GreenFit\GreenFit\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Humanizer.dll
+C:\GreenFit\GreenFit\GreenFit\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Json.More.dll
+C:\GreenFit\GreenFit\GreenFit\bin\Debug\net10.0-windows10.0.19041.0\win-x64\JsonPointer.Net.dll
+C:\GreenFit\GreenFit\GreenFit\bin\Debug\net10.0-windows10.0.19041.0\win-x64\JsonSchema.Net.dll
+C:\GreenFit\GreenFit\GreenFit\bin\Debug\net10.0-windows10.0.19041.0\win-x64\JsonSchema.Net.Generation.dll
+C:\GreenFit\GreenFit\GreenFit\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.Configuration.Binder.dll
+C:\GreenFit\GreenFit\GreenFit\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.Diagnostics.dll
+C:\GreenFit\GreenFit\GreenFit\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.Http.dll
+C:\GreenFit\GreenFit\GreenFit\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\GreenFit\GreenFit\GreenFit\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Mscc.GenerativeAI.dll

@@ -10,7 +10,7 @@ namespace GreenFit.Models
         public string name { get; set; }
         public  string latitude { get; set; }
         public string longitude { get; set; }
-        public AttrezziPalestre attrezzi { get; set; } = new AttrezziPalestre();
+        public static AttrezziPalestre attrezzi { get; set; } = new AttrezziPalestre();
 
         public Gym(int id, string name, string latitude, string longitude)
         {

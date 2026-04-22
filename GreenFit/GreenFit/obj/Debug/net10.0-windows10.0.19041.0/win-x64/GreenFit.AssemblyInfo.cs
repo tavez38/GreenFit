@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GreenFit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+88a48d41ee3d9121b59d11284159b58e7ef4fd7e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f42239da85f60498c5fd319d806da9f42720fe69")]
 [assembly: System.Reflection.AssemblyProductAttribute("GreenFit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GreenFit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

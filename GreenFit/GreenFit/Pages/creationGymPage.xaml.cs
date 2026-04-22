@@ -101,6 +101,7 @@ public partial class CreationGymPage : ContentPage
 
         if (PopUpAttrezzi.SelectedItemsResult!=null)
         {
+           
             // Uniamo i nomi degli attrezzi in una stringa separata da virgole
             LblAttrezziScelti.Text = string.Join(", ", PopUpAttrezzi.SelectedItemsResult);
 
