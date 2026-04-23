@@ -10,9 +10,11 @@ public partial class GymDeteailsPage : ContentPage
 	Position position;
     List<Recensione> recensioneList;
     int idGym;
+    string nameGym;
     public GymDeteailsPage(string name, Position posizione, int id)
 	{
 		InitializeComponent();
+        nameGym = name;
         position = posizione;
         idGym = id;
         recensioneList = null;
@@ -31,7 +33,12 @@ public partial class GymDeteailsPage : ContentPage
 
     public async void goToChatBot(object sender, EventArgs e)
 	{
-		await Navigation.PushAsync(new ChatBotPage());
+        if(Sessione.sessione.isLoggedIn)
+		    await Navigation.PushAsync(new ChatBotPage(nameGym));
+        else{
+            await DisplayAlert("Avviso", "Devi essere loggato per accedere a questa funzionalità!", "Ok");
+            return;
+        }
     }
 
 	private async void openMaps(object sender, EventArgs e)

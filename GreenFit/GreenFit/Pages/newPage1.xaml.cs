@@ -57,9 +57,16 @@ public partial class NewPage1 : ContentPage
         pointsMap.Add(new PointOfInterest(1, 45.4642, 9.1900,"Porva")); //Test marker Milano
     }
 
-	public void goToAddGymPage(object sender, EventArgs e)
+	public async void goToAddGymPage(object sender, EventArgs e)
 	{
-		Navigation.PushAsync(new CreationGymPage());
+        if (Sessione.sessione.isLoggedIn)
+            await Navigation.PushAsync(new CreationGymPage());
+        else
+        {
+            await DisplayAlert("Avviso", "Devi essere loggato per accedere a questa funzionalità!", "Ok");
+            return;
+        }
+        
     }
 
     private async Task AttivaPosizioneRealTime()
