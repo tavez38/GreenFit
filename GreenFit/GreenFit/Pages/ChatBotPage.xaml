@@ -85,7 +85,8 @@
                    BorderColor="#CCCCCC" 
                    BackgroundColor="#F9F9F9" 
                    HasShadow="False">
-                <Entry Placeholder="Scrivi il tuo prompt qui..." 
+                <Entry x:Name="Prompt"
+                Placeholder="Scrivi il tuo prompt qui..." 
                        VerticalOptions="Center" 
                        TextColor="Black" 
                        PlaceholderColor="Gray"/>

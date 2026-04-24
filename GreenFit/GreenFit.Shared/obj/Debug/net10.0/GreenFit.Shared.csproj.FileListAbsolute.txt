@@ -10,3 +10,4 @@ C:\GreenFit\GreenFit\GreenFit.Shared\obj\Debug\net10.0\GreenFit.Shared.dll
 C:\GreenFit\GreenFit\GreenFit.Shared\obj\Debug\net10.0\refint\GreenFit.Shared.dll
 C:\GreenFit\GreenFit\GreenFit.Shared\obj\Debug\net10.0\GreenFit.Shared.pdb
 C:\GreenFit\GreenFit\GreenFit.Shared\obj\Debug\net10.0\ref\GreenFit.Shared.dll
+C:\GreenFit\GreenFit\GreenFit.Shared\obj\Debug\net10.0\GreenFit.Shared.csproj.AssemblyReference.cache

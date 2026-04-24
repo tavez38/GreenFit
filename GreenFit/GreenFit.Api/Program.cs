@@ -1,4 +1,5 @@
 using GreenFet.Data;
+using GreenFit.Api.services;
 using Microsoft.EntityFrameworkCore;
 namespace GreenFit.Api.data;
 
@@ -24,6 +25,8 @@ public class Program
 
 
         app.MapControllers();
+
+        FileManager.readEnvKey();
 
         app.Run();
     }

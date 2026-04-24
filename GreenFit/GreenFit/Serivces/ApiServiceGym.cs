@@ -26,7 +26,7 @@ namespace GreenFit.Serivces
             try
             {
                 // Chiama api/Gym/geografia
-                var response = await _httpClient.GetFromJsonAsync<List<PointOfInterest>>($"{BaseUrl}/geografia");
+                var response = await _httpClient.GetFromJsonAsync<List<PointOfInterest>>($"{BaseUrl}/GymController/getCoordinate");
                 return response ?? new List<PointOfInterest>();
             }
             catch (Exception ex)
@@ -42,7 +42,7 @@ namespace GreenFit.Serivces
             try
             {
                 // Chiama api/Gym/cerca/{nome}
-                var response = await _httpClient.GetFromJsonAsync<List<Gym>>($"{BaseUrl}/cerca/{nome}");
+                var response = await _httpClient.GetFromJsonAsync<List<Gym>>($"{BaseUrl}/GymController/cerca/{nome}");
                 return response ?? new List<Gym>();
             }
             catch (Exception ex)

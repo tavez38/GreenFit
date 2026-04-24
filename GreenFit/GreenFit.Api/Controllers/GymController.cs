@@ -15,7 +15,7 @@ namespace GreenFit.Api.Controllers
         public GymController(AppDbContext context) { _context = context; }
         //get per dati geografici palestra
         // L'app Android chiama: GET https://tuo-tunnel-cloudflare.com/api/utenti
-        [HttpGet("geografia")]
+        [HttpGet("/GymController/getCoordinate")]
         public async Task<IActionResult> GetRapido()
         {
             var dati = await _context.Gym
@@ -32,7 +32,7 @@ namespace GreenFit.Api.Controllers
         }
         // get per palestra con nome
         // L'app Android chiama: GET https://tuo-tunnel-cloudflare.com/api/utenti/cerca/Mario
-        [HttpGet("cerca/{nome}")]
+        [HttpGet("/GymController/cerca/{nome}")]
         public async Task<ActionResult<List<Gym>>> GetPerNome(string nome)
         {
             // Cerca nel database dove il Nome è uguale a quello richiesto
@@ -43,8 +43,18 @@ namespace GreenFit.Api.Controllers
         [HttpPost]
         public async Task<ActionResult> CreaPalestra(Gym nuovaPalestra)
         {
-            _context.Gym.Add(nuovaPalestra); // Aggiunge in memoria
-            await _context.SaveChangesAsync(); // Salva nel database
+            // Controlliamo se esiste già una palestra in quelle coordinate esatte
+            var esisteGia = await _context.Gym.AnyAsync(g =>
+                g.latitude == nuovaPalestra.latitude &&
+                g.longitude == nuovaPalestra.longitude);
+
+            if (esisteGia)
+            {
+                return BadRequest("Esiste già una palestra registrata in queste coordinate geografiche.");
+            }
+
+            _context.Gym.Add(nuovaPalestra);
+            await _context.SaveChangesAsync();
             return Ok();
         }
     }

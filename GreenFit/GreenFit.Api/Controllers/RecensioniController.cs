@@ -15,10 +15,10 @@ namespace GreenFit.Api.Controllers
 
         //get per ogni recensione presente
         // L'app Android chiama: GET https://tuo-tunnel-cloudflare.com/api/utenti
-        [HttpGet("gymReview/{palestra}")]
+        [HttpGet("/RecensioniController/getRecensioni/{idPalestra}")]
         public async Task<ActionResult<List<Recensione>>> getAllGymRecensioni(int idPalestra)
         {
-            return await _context.Recensione.Where(u => u.palestra == idPalestra).ToListAsync();
+            return await _context.Recensione.Where(u => u.idPalestra == idPalestra).ToListAsync();
         }
         //caricare su db la recensione
         // L'app Android invia un file JSON con i dati a: POST https://tuo-tunnel-cloudflare.com/api/utenti

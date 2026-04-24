@@ -25,7 +25,7 @@ namespace GreenFit.Serivces
             {
                 // NOTA: Se il tuo controller accetta l'oggetto Gym, 
                 // è meglio passare l'ID o modificare il controller per accettare l'ID.
-                var response = await _httpClient.GetFromJsonAsync<List<Recensione>>($"{BaseUrl}/gymReview/{palestraId}");
+                var response = await _httpClient.GetFromJsonAsync<List<Recensione>>($"{BaseUrl}/RecensioniController/getRecensioni/{palestraId}");
                 return response ?? new List<Recensione>();
             }
             catch (Exception ex)
