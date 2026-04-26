@@ -30,6 +30,7 @@ namespace GreenFit
                  $"client_id={clientId}&" +
                  $"response_type=code&" +
                  $"scope=openid%20email%20profile&" +
+                 $"prompt=select_account&" +
                  $"redirect_uri={Uri.EscapeDataString(redirectUri)}";
 
                 // 3. Avvia l'autenticazione tramite browser di sistema
@@ -77,15 +78,18 @@ namespace GreenFit
                             email = root.GetProperty("email").GetString();
                             nome = root.GetProperty("given_name").GetString();
                             cognome = root.GetProperty("family_name").GetString();
-                            
+                            string fotoUrl = root.TryGetProperty("picture", out var picElement)? picElement.GetString(): "";
 
-                            // Prova a visualizzarli!
-                            await DisplayAlert("Login Successo", $"Bentornato {nome} {cognome}!", "OK");
+                            //salvataggio in memoria locale dei dati dell'utente
+                            Preferences.Set("user_name", $"{nome};{cognome}");
+                            Preferences.Set("user_picture_url", fotoUrl);
+
 
                             Utente utente = new Utente(true);
                             utente.nome = nome;
                             utente.cognome = cognome;
                             utente.email = email;
+                            utente.userImgUrl = fotoUrl;
                             Sessione.sessione = utente;
 
 

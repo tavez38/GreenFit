@@ -7,13 +7,63 @@
              BackgroundColor="#F5F7F8"
              Shell.NavBarIsVisible="False">
 
-    <Grid RowDefinitions="*, Auto">
+    <Grid RowDefinitions="Auto,*, Auto">
+        <Frame Grid.Row="0" 
+               BackgroundColor="#4CAF50" 
+               Padding="10,5" 
+               HasShadow="True" 
+               CornerRadius="0" 
+               >
+            <Grid ColumnDefinitions="*, Auto">
+
+                <Label x:Name="UserNameLabel"
+                       Text="Nome Cognome" 
+                       VerticalOptions="Center" 
+                       TextColor="#1B4332" 
+                       FontSize="16" 
+                       FontAttributes="Bold" 
+                       Margin="10,0,0,0"/>
+
+                <HorizontalStackLayout Grid.Column="1" Spacing="15" VerticalOptions="Center">
+
+                    <Image x:Name="UserProfileImage"
+                           BackgroundColor="Transparent"
+                           HeightRequest="40" 
+                           WidthRequest="40" 
+                           Aspect="AspectFill"
+                           VerticalOptions="Center">
+                        <Image.Clip>
+                            <EllipseGeometry Center="20,20" RadiusX="20" RadiusY="20" />
+                        </Image.Clip>
+                    </Image>
+
+                    <Button x:Name="btnLogOut"
+                            Text="Logout" 
+                            BackgroundColor="#FF4C4C" 
+                            TextColor="White" 
+                            CornerRadius="15" 
+                            HeightRequest="35" 
+                            FontSize="12"
+                            Clicked="OnLogoutClicked"/>
+
+                    <Button x:Name="BtnLoginGoogle"
+                        Text="Torna alla login" 
+                        BackgroundColor="#4285F4" 
+                        TextColor="White" 
+                        CornerRadius="15" 
+                        HeightRequest="35" 
+                        IsVisible="False" 
+                        Clicked="OnClickedBackToLogIn"/>
+                </HorizontalStackLayout>
+            </Grid>
+        </Frame>
 
         <mapsui:MapView x:Name="mappaView" 
+                    Grid.Row="1"
                     VerticalOptions="FillAndExpand" 
                     HorizontalOptions="FillAndExpand" />
 
-        <StackLayout Grid.Row="1" 
+        <StackLayout Grid.Row="2" 
                      BackgroundColor="#4CAF50" 
                      Padding="15" 
                      Orientation="Horizontal">

@@ -14,6 +14,7 @@ public partial class GymDeteailsPage : ContentPage
     public GymDeteailsPage(string name, Position posizione, int id)
 	{
 		InitializeComponent();
+        gymNameLabel.Text=name;
         nameGym = name;
         position = posizione;
         idGym = id;
@@ -28,6 +29,7 @@ public partial class GymDeteailsPage : ContentPage
         IntroRecensioni.Text = "Recensioni (" + recensioneList.Count + ")";
         AggiornaStelleMedia();
         CaricaRecensioni();
+        //TODO caricare in database immagini e visualiazare immagine della palestra
     }
 
 

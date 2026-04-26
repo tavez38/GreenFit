@@ -8,7 +8,8 @@
     <ScrollView>
         <VerticalStackLayout Spacing="15" Padding="20">
 
-            <Image Source="palestra_foto.jpg" 
+            <Image x:Name="imgGymTag" 
+            Source="palestra_foto.jpg" 
                    HeightRequest="220" 
                    Aspect="AspectFill" />
 

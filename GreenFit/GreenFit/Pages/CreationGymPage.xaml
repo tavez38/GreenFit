@@ -36,7 +36,7 @@
                     <Frame Grid.Column="0" 
                            WidthRequest="250" 
                            HeightRequest="150" 
-                           BackgroundColor="#E0E0E0" 
+                           BackgroundColor="LightGrey" 
                            CornerRadius="10" 
                            HasShadow="False"
                            BorderColor="Transparent"
@@ -72,23 +72,25 @@
                        WidthRequest="300" 
                        HorizontalOptions="Center" 
                        TextColor="Black"
+                       BackgroundColor="LightGrey"
                        />
 
                 <Button Text="+ aggiungi attrezzi" 
                         HorizontalOptions="Start" 
                         Margin="20,0,0,0" 
-                        BackgroundColor="#EEEEEE"
+                        BackgroundColor="LightGrey"
                         TextColor="Black"
                         Clicked="OpenPopUpClicked"/>
 
-                <Label x:Name="LblAttrezziScelti" Text="Nessun attrezzo selezionato" TextColor="Gray" Padding="20" />
+                <Label x:Name="LblAttrezziScelti" Text="Nessun attrezzo selezionato" TextColor="Black" Padding="20" />
 
                 <Entry x:Name="GymCoordinateEntry" 
                 Placeholder="Coordinate geografiche (es. 41.9028, 12.4964)" 
                        WidthRequest="300" 
                        HorizontalOptions="Center"
                        TextColor="Black"
-                       Keyboard="Numeric"/>
+                       Keyboard="Numeric"
+                       BackgroundColor="LightGrey"/>
 
             </VerticalStackLayout>
         </ScrollView>
@@ -98,14 +100,14 @@
                                Spacing="20" 
                                Padding="20,10,20,30">
 
-            <Button Text="scarta proposta" 
+            <Button Text="Reset" 
                     BackgroundColor="Red" 
                     TextColor="White" 
                     FontAttributes="Bold"
                     WidthRequest="150"
                     Clicked="resetAddGym"/>
 
-            <Button Text="aggiungi" 
+            <Button Text="Aggiungi" 
                     BackgroundColor="Green" 
                     TextColor="White" 
                     FontAttributes="Bold"

@@ -29,7 +29,9 @@ public partial class CreationGymPage : ContentPage
 
 
         await DisplayAlert("Palestra Aggiunta", $"Nome: {name}\nDescrizione:\n", "OK");
-        
+
+        await Navigation.PopAsync();
+
     }
     public void resetAddGym(object sender, EventArgs e){
         GymNameEntry.Text = string.Empty;
@@ -65,21 +67,27 @@ public partial class CreationGymPage : ContentPage
             if (status != PermissionStatus.Granted) {
                 status = await Permissions.RequestAsync<Permissions.LocationWhenInUse>();
             }
+
             if (status != PermissionStatus.Granted) {
                 await DisplayAlert("Permesso negato", "Impossibile ottenere la posizione senza permessi; perfavore inserire la posizione della palestra a mano.", "OK");
                 return;
             }
 
             // 2. Configura la richiesta di posizione
-            GeolocationRequest request = new GeolocationRequest(GeolocationAccuracy.Medium, TimeSpan.FromSeconds(10));
+            GeolocationRequest request = new GeolocationRequest(GeolocationAccuracy.Best, TimeSpan.FromSeconds(15));
 
             // 3. Ottieni la posizione
             Location location = await Geolocation.Default.GetLocationAsync(request);
-
+            if (location == null)
+            {
+                await DisplayAlert("Errore", "Impossibile ottenere la posizione. Perfavore inserire la posizione della palestra a mano.", "OK");
+                return;
+            }
             if (location != null)
             {
-                // 4. Inserisci i dati nella Entry
-                GymCoordinateEntry.Text = location.Latitude.ToString() + ", " + location.Longitude.ToString();
+                // 4. Inserisci i dati nella Entry con il formato internazionale (punto come separatore decimale)
+                GymCoordinateEntry.Text = location.Latitude.ToString(System.Globalization.CultureInfo.InvariantCulture) + ", " 
+                                             + location.Longitude.ToString(System.Globalization.CultureInfo.InvariantCulture);
 
                 await DisplayAlert("Successo", "Coordinate inserite correttamente", "OK");
             }

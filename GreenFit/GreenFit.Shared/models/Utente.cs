@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 namespace GreenFit.Shared.Models
@@ -9,6 +10,7 @@ namespace GreenFit.Shared.Models
         public string? nome { get; set; }
         public string? cognome { get; set; }
         public string? email { get; set; }
+        public string? userImgUrl { get; set; }
         public bool isLoggedIn { get; set; }
 
         public Utente(bool isLoggedIn) { 

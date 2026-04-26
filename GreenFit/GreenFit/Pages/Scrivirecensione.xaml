@@ -2,7 +2,9 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GreenFit.Pages.Scrivirecensione"
-             Title="Scrivirecensione">
+             Title="Scrivirecensione"
+             BackgroundColor="#F5F7F8"
+             Shell.NavBarIsVisible="False">
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="20">
 
@@ -13,17 +15,18 @@
                    TextColor="#333333" />
 
             <VerticalStackLayout Spacing="5">
-                <Label Text="Titolo" FontAttributes="Bold" />
-                <Frame Padding="0" HasShadow="False" BorderColor="#CCCCCC" CornerRadius="8">
+                <Label Text="Titolo" FontAttributes="Bold" TextColor="Black" />
+                <Frame Padding="0" HasShadow="False" BorderColor="#333333" CornerRadius="8" BackgroundColor="LightGrey">
                     <Entry x:Name="EntryTitolo" 
                            Placeholder="Riassumi la tua esperienza..." 
-                           Margin="10,0" />
+                           Margin="10,0"
+                           TextColor="Black"/>
                 </Frame>
             </VerticalStackLayout>
 
             <VerticalStackLayout Spacing="5">
-                <Label Text="Valutazione" FontAttributes="Bold" />
-                <Frame Padding="0" HasShadow="False" BorderColor="#CCCCCC" CornerRadius="8">
+                <Label Text="Valutazione" FontAttributes="Bold" TextColor="Black"/>
+                <Frame Padding="0" HasShadow="False" BorderColor="#333333" CornerRadius="8" BackgroundColor="LightGrey">
                     <Picker x:Name="PickerVoto" 
                             Title="Seleziona un voto" 
                             Margin="10,0" />
@@ -31,18 +34,19 @@
             </VerticalStackLayout>
 
             <VerticalStackLayout Spacing="5">
-                <Label Text="La tua recensione" FontAttributes="Bold" />
-                <Frame Padding="0" HasShadow="False" BorderColor="#CCCCCC" CornerRadius="8">
+                <Label Text="La tua recensione" FontAttributes="Bold" TextColor="Black" />
+                <Frame Padding="0" HasShadow="False" BorderColor="#333333" CornerRadius="8" BackgroundColor="LightGrey">
                     <Editor x:Name="EditorDescrizione" 
-                            Placeholder="Scrivi qui i dettagli (attrezzatura, pulizia, staff...)" 
+                            Placeholder="Scrivi qui i dettagli (attrezzatura, pulizia...)" 
                             HeightRequest="150" 
-                            Margin="10" />
+                            Margin="10" 
+                            TextColor="Black"/>
                 </Frame>
             </VerticalStackLayout>
 
             <Button Text="Pubblica Recensione"
                     Clicked="OnInviaRecensioneClicked"
-                    BackgroundColor="#2196F3"
+                    BackgroundColor="#FF9F1C"
                     TextColor="White"
                     CornerRadius="25"
                     HeightRequest="50"

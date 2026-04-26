@@ -21,6 +21,7 @@ public partial class NewPage1 : ContentPage
 
         // Assegna la mappa al controllo XAML
         mappaView.Map = map;
+        loadNavbar();
 
         OnPageLoaded();
 
@@ -51,7 +52,27 @@ public partial class NewPage1 : ContentPage
             mappaView.Pins.Add(pin);
         }
     }
-
+    private void loadNavbar()
+    {
+        if (!Sessione.sessione.isLoggedIn)
+        {
+            btnLogOut.IsVisible = false;
+            BtnLoginGoogle.IsVisible = true;
+            UserNameLabel.Text = "Ospite";
+            UserProfileImage.Source = "user_profile_img_default.png";
+        }
+        else
+        {
+            btnLogOut.IsVisible = true;
+            BtnLoginGoogle.IsVisible = false;
+            UserNameLabel.Text = Preferences.Get("user_name", "Ospite").Replace(";", " ");
+            UserProfileImage.Source = Preferences.Get("user_picture_url", "UserProfileImgDefault.png");
+        }
+    }
+    private void OnClickedBackToLogIn(object sender, EventArgs e)
+    {
+        Navigation.PopAsync();
+    }
     public async Task caricaPOIMappa(){
         pointsMap = await ApiServiceGym.GetDatiGeograficiAsync();
         pointsMap.Add(new PointOfInterest(1, 45.4642, 9.1900,"Porva")); //Test marker Milano
@@ -109,5 +130,18 @@ public partial class NewPage1 : ContentPage
         
        await Navigation.PushAsync(new GymDeteailsPage(e.Pin.Label, e.Pin.Position,(int) e.Pin.Tag));
 
+    }
+
+    private async void OnLogoutClicked(object sender, EventArgs e)
+    {
+        // Pulisci i dati dell'utente dalla sessione
+        Sessione.sessione = new Shared.Models.Utente(false);
+        // Pulisci le preferenze locali
+        Preferences.Remove("user_name");
+        Preferences.Remove("user_picture_url");
+        // Aggiorna la navbar
+        loadNavbar();
+        // Torna alla pagina di login
+        await Navigation.PopAsync();
     }
 }

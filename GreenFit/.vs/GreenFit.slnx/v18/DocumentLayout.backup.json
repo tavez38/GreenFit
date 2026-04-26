@@ -3,36 +3,20 @@
   "WorkspaceRootPath": "C:\\GreenFit\\GreenFit\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|c:\\greenfit\\greenfit\\greenfit\\pages\\chatbotpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|solutionrelative:greenfit\\pages\\chatbotpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|c:\\greenfit\\greenfit\\greenfit\\pages\\creationgympage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|solutionrelative:greenfit\\pages\\creationgympage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{069D08FD-1BA5-4122-BD53-8A201278C3E7}|GreenFit.Shared\\GreenFit.Shared.csproj|c:\\greenfit\\greenfit\\greenfit.shared\\models\\gym.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{069D08FD-1BA5-4122-BD53-8A201278C3E7}|GreenFit.Shared\\GreenFit.Shared.csproj|solutionrelative:greenfit.shared\\models\\gym.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|c:\\greenfit\\greenfit\\greenfit\\serivces\\apiservicerecensioni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|solutionrelative:greenfit\\serivces\\apiservicerecensioni.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|c:\\greenfit\\greenfit\\greenfit\\pages\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|solutionrelative:greenfit\\pages\\newpage1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|c:\\greenfit\\greenfit\\greenfit\\pages\\gymdeteailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|solutionrelative:greenfit\\pages\\gymdeteailspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|c:\\greenfit\\greenfit\\greenfit\\pages\\newpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|solutionrelative:greenfit\\pages\\newpage1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|c:\\greenfit\\greenfit\\greenfit\\pages\\gymdeteailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|solutionrelative:greenfit\\pages\\gymdeteailspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|c:\\greenfit\\greenfit\\greenfit\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|solutionrelative:greenfit\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|c:\\greenfit\\greenfit\\greenfit\\pages\\chatbotpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|solutionrelative:greenfit\\pages\\chatbotpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|c:\\greenfit\\greenfit\\greenfit\\resources\\raw\\.env||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AC42B3EE-1DE0-3AC9-1983-A5F07E31D4B2}|GreenFit\\GreenFit.csproj|solutionrelative:greenfit\\resources\\raw\\.env||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,106 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "creationGymPage.xaml.cs",
-              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\creationGymPage.xaml.cs",
-              "RelativeDocumentMoniker": "GreenFit\\Pages\\creationGymPage.xaml.cs",
-              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\creationGymPage.xaml.cs",
-              "RelativeToolTip": "GreenFit\\Pages\\creationGymPage.xaml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAD4vxoAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T10:35:48.103Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ApiServiceRecensioni.cs",
-              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit\\Serivces\\ApiServiceRecensioni.cs",
-              "RelativeDocumentMoniker": "GreenFit\\Serivces\\ApiServiceRecensioni.cs",
-              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit\\Serivces\\ApiServiceRecensioni.cs",
-              "RelativeToolTip": "GreenFit\\Serivces\\ApiServiceRecensioni.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwBsAAACOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T10:31:32.075Z",
+              "Title": ".env",
+              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit\\Resources\\Raw\\.env",
+              "RelativeDocumentMoniker": "GreenFit\\Resources\\Raw\\.env",
+              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit\\Resources\\Raw\\.env",
+              "RelativeToolTip": "GreenFit\\Resources\\Raw\\.env",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-04-26T10:52:04.277Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Gym.cs",
-              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit.Shared\\models\\Gym.cs",
-              "RelativeDocumentMoniker": "GreenFit.Shared\\models\\Gym.cs",
-              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit.Shared\\models\\Gym.cs",
-              "RelativeToolTip": "GreenFit.Shared\\models\\Gym.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAwwBUAAAA7AAAAAAAAAA==",
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "GreenFit\\MainPage.xaml.cs",
+              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit\\MainPage.xaml.cs",
+              "RelativeToolTip": "GreenFit\\MainPage.xaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowCAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-24T10:28:04.084Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "newPage1.xaml.cs",
-              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\newPage1.xaml.cs",
-              "RelativeDocumentMoniker": "GreenFit\\Pages\\newPage1.xaml.cs",
-              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\newPage1.xaml.cs",
-              "RelativeToolTip": "GreenFit\\Pages\\newPage1.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAABqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T17:00:23.033Z",
+              "WhenOpened": "2026-04-26T10:45:13.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ChatBotPage.xaml.cs",
-              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\ChatBotPage.xaml.cs",
-              "RelativeDocumentMoniker": "GreenFit\\Pages\\ChatBotPage.xaml.cs",
-              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\ChatBotPage.xaml.cs",
-              "RelativeToolTip": "GreenFit\\Pages\\ChatBotPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
+              "Title": "newPage1.xaml.cs",
+              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\newPage1.xaml.cs",
+              "RelativeDocumentMoniker": "GreenFit\\Pages\\newPage1.xaml.cs",
+              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\newPage1.xaml.cs",
+              "RelativeToolTip": "GreenFit\\Pages\\newPage1.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T16:50:03.33Z",
+              "WhenOpened": "2026-04-26T10:34:22.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GymDeteailsPage.xaml.cs",
-              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\GymDeteailsPage.xaml.cs",
-              "RelativeDocumentMoniker": "GreenFit\\Pages\\GymDeteailsPage.xaml.cs",
-              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\GymDeteailsPage.xaml.cs",
-              "RelativeToolTip": "GreenFit\\Pages\\GymDeteailsPage.xaml.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwCgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-23T16:48:56.15Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GymDeteailsPage.xaml",
-              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\GymDeteailsPage.xaml",
-              "RelativeDocumentMoniker": "GreenFit\\Pages\\GymDeteailsPage.xaml",
-              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\GymDeteailsPage.xaml",
-              "RelativeToolTip": "GreenFit\\Pages\\GymDeteailsPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "NewPage1.xaml",
+              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\NewPage1.xaml",
+              "RelativeDocumentMoniker": "GreenFit\\Pages\\NewPage1.xaml",
+              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\NewPage1.xaml",
+              "RelativeToolTip": "GreenFit\\Pages\\NewPage1.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-23T16:48:52.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ChatBotPage.xaml",
-              "DocumentMoniker": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\ChatBotPage.xaml",
-              "RelativeDocumentMoniker": "GreenFit\\Pages\\ChatBotPage.xaml",
-              "ToolTip": "C:\\GreenFit\\GreenFit\\GreenFit\\Pages\\ChatBotPage.xaml",
-              "RelativeToolTip": "GreenFit\\Pages\\ChatBotPage.xaml",
-              "ViewState": "AgIAACcAAAAAAAAAAIBJwEMAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-23T16:47:31.278Z",
+              "WhenOpened": "2026-04-26T10:22:11.947Z",
               "EditorCaption": ""
             }
           ]
